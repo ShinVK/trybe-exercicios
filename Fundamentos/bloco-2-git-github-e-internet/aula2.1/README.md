@@ -21,6 +21,8 @@
 + git branch <nome do branch> - cria um branch
 + git checkout -b <nome do branch> - Sai do main, cria e já vai para o branch criado.
 + git log - histórico das mudanças feitas
++ git pull origin HEAD - Quando você faz alterações no local remoto, antes de fazer o push para o github você precisa atualizar o seu arquivo local, 
+o comando vai pegar as alterações do origin (remoto) e vai atualizar os arquivos locais (HEAD).
 + git commit -m "mensagem" - Adiciona um commit.
 + git remove HEAD <arquivo> - Quando você quer tirar do stage algum arquivo adicionado por engano
 + git remove --soft --mixed --hard REF - Quando quer remover algum arquivo mas já foi comitado. Dependendo da forma como você escolhe (soft, mixed ou hard)
