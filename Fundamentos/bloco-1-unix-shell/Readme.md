@@ -3,10 +3,10 @@
 
   As 2 primeiras aulas foram WELCOMEDAYS
 
-- [x] 📖 Aula 1.3 - Fundamentos do Desenvolvimento WEB  11.08
-- [x] 📖 Aula 1.3 - Introdução Unix & Shell  11.08
-- [x] 📖 Aula 1.3 - Unix & Bash - Parte 1  11.08
-- [x] 📖 Aula 1.4 - Unix & Bash - Parte 2  12.08
+- [x] 📖 Aula 1.3 - Fundamentos do Desenvolvimento WEB  11.08 - Quarta-Feira
+- [x] 📖 Aula 1.3 - Introdução Unix & Shell  11.08 - Quarta-Feira
+- [x] 📖 Aula 1.3 - Unix & Bash - Parte 1  11.08 - Quarta-Feira
+- [x] 📖 Aula 1.4 - Unix & Bash - Parte 2  12.08 - Quinta-Feira
 
 
 ### 📋 Fundamentos do Desenvolvimento Web
