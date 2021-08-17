@@ -1,4 +1,8 @@
+
+<img src="https://user-images.githubusercontent.com/87394535/129787068-b0b4e0db-55d8-4f03-9e9d-ceb3b09d3937.png" alt="drawing" width="300"/>
+
 ## 📚Bloco 1 - Unix & Bash
+
 ### 🗓️ 2 aulas -11.08 e 12.08 de 2021
 
   As 2 primeiras aulas foram WELCOMEDAYS
