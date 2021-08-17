@@ -7,7 +7,7 @@
 1. Copiar um repositório já existente no GitHub para o PC;
 2. Pull Requests;
 3. Trabalhar em um mesmo projeto, com mais de uma pessoa de forma assíncrona;
-4. Aula ao vivo - 
+4. Aula ao vivo - Prof Jack
 
 
 ### 📋 Principais Comandos
@@ -22,5 +22,9 @@
 + git push -u origin master -
 + pull request - Realizar sugestões e contribuir com alterações em um repositório. Você fará as mudanças em um branch separado. 
 + Tem duas formas de criar o branch (terminal ou site gitHub)
-  
++ pull request
++ git checkout -b 
++ git push --set-upstream origin nome_da_branch
+
+
   ----- FIM DA AULA -----
