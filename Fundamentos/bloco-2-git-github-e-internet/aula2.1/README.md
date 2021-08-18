@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/87394535/129942939-007fc304-2ac0-431d-b018-685951e5750f.png" alt="drawing" width="300"/>
+
 ## 📚 Aula 2.1 - Bloco 2 - Git, GitHub e Internet
 #### 🗓️ Sexta feira, 13 de Agosto de 2021 
 
