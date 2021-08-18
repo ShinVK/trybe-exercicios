@@ -1,5 +1,4 @@
-
-<img src="https://user-images.githubusercontent.com/87394535/129787068-b0b4e0db-55d8-4f03-9e9d-ceb3b09d3937.png" alt="drawing" width="300"/>
+<img src="https://user-images.githubusercontent.com/87394535/129942939-007fc304-2ac0-431d-b018-685951e5750f.png" alt="drawing" width="300"/>
 
 ## 📚Bloco 1 - Unix & Bash
 
