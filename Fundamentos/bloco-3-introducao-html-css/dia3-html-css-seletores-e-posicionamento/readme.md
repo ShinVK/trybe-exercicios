@@ -16,6 +16,7 @@
 2. EX2 - Posicionar o Mário, goomba e Bowser nos lugares pedidos com o comando position absolute e z-index 
 3. EX3 - Trabalhar com os pseudoelementos hover e active, atribuir características pra mais de um elemento em um comando.
 Trabalhar com listas. 
+4. EX4 - Trabalhar com classes, tags e pseudoelementos
 
 ### 📋 Comandos
 + tag span 
