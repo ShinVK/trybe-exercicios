@@ -14,6 +14,8 @@
 ### 📓 Exercícios
 1. Ex1 - Inserir padding, margin e border em diferentes caixas.
 2. EX2 - Posicionar o Mário, goomba e Bowser nos lugares pedidos com o comando position absolute e z-index 
+3. EX3 - Trabalhar com os pseudoelementos hover e active, atribuir características pra mais de um elemento em um comando.
+Trabalhar com listas. 
 
 ### 📋 Comandos
 + tag span 
