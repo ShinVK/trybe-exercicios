@@ -17,5 +17,5 @@ else if (numeroE >= numeroC && numeroE > numeroD) {
   console.log("Esse é o maior número dos 3");
 }
 else {
-  console.log("Os números são iguais");
+  console.log("Os 3 números são iguais");
 }
