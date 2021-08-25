@@ -1,0 +1,54 @@
+div:hover {
+  border: 1px solid black;
+}
+
+.prim {
+background-color: #03A9F4;
+}
+
+.sec {
+  background-color: #757575;
+
+}
+
+.compl {
+background-color: #FF4081;
+height: 50px;
+}
+
+.dark {
+
+background-color: #0288D1;
+}
+
+.light {
+background-color: #B3E5FC;
+}
+
+.cor1 {
+color: blue;
+}
+
+.cor2 {
+  color: #FF4081;
+
+}
+
+.cor3 {
+  color: #757575;
+
+}
+
+.cor4 {
+color: green;
+}
+
+.cor5 {
+  color: antiquewhite;
+
+}
+
+.impar {
+  font-style: italic;
+}
+

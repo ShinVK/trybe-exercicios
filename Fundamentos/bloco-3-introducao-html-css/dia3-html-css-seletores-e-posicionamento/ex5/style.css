@@ -1,0 +1,56 @@
+li {
+    background-color: yellow;
+    font-size: 20px;
+}
+
+.impar {
+    text-transform: uppercase;
+}
+
+.par {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.italic {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+}
+
+.java {
+    background-color: pink;
+}
+.orange a:hover {
+    font-weight: bolder;
+    color:orange;
+}
+
+.preto a:hover {
+    font-weight: bold;
+    color:black;
+}
+
+.amarelo a:hover {
+    font-weight: bold;
+    color:yellow;
+}
+
+.verde a:hover {
+    font-weight: bold;
+    color:green;
+}
+
+a {
+    text-decoration: none;
+}
