@@ -1,10 +1,7 @@
-let numberA;
-let numberB;
-let numberC;
+const numberA = 1;
+const numberB = 7;
+const numberC = 8;
 
-numberA = 1;
-numberB = 7;
-numberC = 5;
 
 if (numberA % 2 == 0 || numberB % 2 == 0 || numberC % 2 == 0) {
   console.log(true);
