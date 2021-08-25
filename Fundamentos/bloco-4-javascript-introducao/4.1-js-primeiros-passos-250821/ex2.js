@@ -1,5 +1,5 @@
 const numeroA = 4;
-const numeroB = 2;
+const numeroB = 7;
 let maiorNumero;
 
 if (numeroA > numeroB) {
