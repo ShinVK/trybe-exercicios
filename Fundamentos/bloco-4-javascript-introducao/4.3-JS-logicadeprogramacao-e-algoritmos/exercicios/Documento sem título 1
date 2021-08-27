@@ -1,0 +1,125 @@
+o total de * são
+n = 5
+
+1 linha com 1
+2 linha com 3
+3 linha 5
+
+
+primeira linha adiciona:
+1- 2 espaços em branco
+2- 1 estrela
+3- 2 espaços em branco
+
+segunda linha adiciona:
+1- 1 espaço em branco
+2- 3 estrelas
+3- 1 espaço em branco
+
+terceira linha adicion:
+1 - 5 estrelas
+
+
+espaços em branco em cada lado diminui 1.
+fórmula dos espaços em brancos:
+se indice <= 2 ->blank
+se indice = 3 - *
+se indice >4 && indice >= n
+add espaço em branco
+
+o que varia? varia o índice com o loop, porém os espaços em brancos tbm variam
+para isso temos que determinar o padrão dos espaços em branco.
+temos dois padrões: se a base é par ou se a base é impar
+se o n é divisível por 2 === 0 é uma situação
+se o n não é divisível por 2 é outra situação
+
+if (n % 2 == 0) {acontece a primeira situação}
+else {segunda situação}
+
+Visto inicialmente se é par ou ímpar vamos para fórmula.
+ímpar - a primeira linha é sempre 1, depois acresce mais 2 + 2 + 2 até chegar no n.
+se for par - temos a primeira linha é 2 e depois acresce mais 2 mais 2 até chegar no n
+
+porém temos que encontrar uma forma de calcular isso: 
+DETERMINAMOS QUE O NÚMERO DE ASTERÍSCOS VAI SER IGUAL AO NÚMERO DO ÍNDICE
+se ímpar, temos n - 1 espaços em branco + 1*. No próximo loop falamos para add +=2
+assim temos: index = numero de estrelas
+	blank = n - index
+	blank em cada lado = blank/2
+	
+
+se for par temos o início do index em 2. e loop de 2 em 2 +=2
+	index=2
+	blank = n - index
+	blank em cada lado = blank/2
+	
+temos q ver como o programa vai reagir de acordo com o índice e como ele vai determinar como vai fazer a divisão:
+
+-SE ÍMPAR - para isso necessitamos de um segundo loop dentro do primeiro loop para indicar como vai reagir até completar a linha inteira, como se colocasse as colunas:
+
+EX n=5
+index = 1
+index2 = 1
+coloca espaço
+se index = 1 
+index2 = 2
+coloca espaço
+se index = 1
+index2 = 3
+coloca star
+
+A questão é como o computador vai saber quando colocar a estrela?
+podemos fazer através do blank = n - index
+onde: blank=n - index/2 vai nos dizer quantos espaços tem de cada lado
+ex- blank space = 5 -1 /2 a gnt sabe que vai ser 2 espaços de cada lado
+portanto podemos colocar uma condicional até chegar nesses dois espaços
+portanto temos: 
+if index2 <= blank_space {line += blank}
+if index2 <= n - blank_space {line += star]
+if index2 >= n-blank_space {line += blank}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
