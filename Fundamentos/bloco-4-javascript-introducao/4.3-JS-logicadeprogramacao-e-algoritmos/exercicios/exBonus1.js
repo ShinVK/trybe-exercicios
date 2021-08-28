@@ -1,4 +1,4 @@
-const n = 19; //tem que ser ímpar
+const n = 20; //tem que ser ímpar
 let line = '';
 
 const star = "*"
@@ -9,7 +9,7 @@ const _blank = " ";
 
 
 //se ímpar
-for (let index = 1; index <= n; index += 2) {  //3
+for (let index = 2; index <= n; index += 2) {  //3
   let line = '';
   let blank_space = (n - index)/2; //7-3/4 =2
   let positionStarRight = 1 + blank_space;
