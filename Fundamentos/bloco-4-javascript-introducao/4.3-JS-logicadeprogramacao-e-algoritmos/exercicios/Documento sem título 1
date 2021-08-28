@@ -78,6 +78,69 @@ if index2 <= blank_space {line += blank}
 if index2 <= n - blank_space {line += star]
 if index2 >= n-blank_space {line += blank}
 
+EX BONUS:
+
+pede que tenha um espaço dentro da pirâmide
+
+o primeiro é um
+e todas as linhas vão ter duas estrelas até chegar na última
+e na última vão ser todas estrelas
+
+para localizar em que lugar fica as 2 estrelas:
+n = 7
+a primeira estrela fica na pos 4
+1*    5     1
+2    4 6			3
+3   3  	7
+4  2     8 	7
+5 123456789
+
+      4     1
+2    3 5			4
+3   2  	6    345
+4  1234567 	23456
+5 
+
+
+
+
+ou seja, acresce um pra direita e diminui 1 pra esquerda
+
+da mesma forma vão ser a cada 2 linhas;
+index linha
+index coluna
+a linha vai percorrer a cada duas +=2, então o index vai ser 1, 3, 5, 7, 9 etc
+a coluna é onde temos que encontrar o algorítmo baseado na linha
+teste: 
+7 - 1 = 6
+6/2 = 3 espaços de cada lado,      ok
+
+terceira linha 
+7-3 = 4,
+4/2 temos 2 espaços de cada lado. onde 7-2 e 1+2
+se o index2 = 7-2 estrela
+se o index2 = 1+2 estrela
+n-blank_space
+1+blank_space
+
+
+quinta linha 
+7-5 = 2
+2/2 = 1, temos 1 espaço de cada lado, onde 7-1 e 1+1
+
+setima linha 
+toda estrela
+
+porem se fosse setima linha normal
+9-7 =2 
+9-1 e 1+1
+
+
+
+
+
+
+
 
 
 
