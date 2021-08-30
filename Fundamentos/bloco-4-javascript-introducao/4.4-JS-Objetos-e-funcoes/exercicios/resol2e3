@@ -24,4 +24,14 @@ numAtual
 
  3. Semelhante ao exercicio 2 só inverter o sinal do if
 
- 
+ 4. Nesse caso teremos que comparar o tamanho de letras de cada string e retornar a palavra com maior número de letras.
+ nesse caso podemos utilizar da mesma função do ex1. 
+ no caso teremos que converter dentro do loop antes de comparar.
+ const space = '';
+ let bigName = "";
+ for (index = 0; index < arrayNames.length; index += 1){
+  actualName = arrayNames[index].split(space);
+  if(actualName > bigName) {
+    bigName = actualName;
+  }
+ }
