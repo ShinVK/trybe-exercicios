@@ -1,0 +1,23 @@
+2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+Array de teste: [2, 3, 6, 7, 10, 1]; .
+Valor esperado no retorno da função: 4 .
+3 - Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+Array de teste: [2, 4, 6, 7, 10, 0, -3]; .
+Valor esperado no retorno da função: 6 .
+4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']; .
+Valor esperado no retorno da função: Fernanda .
+
+
+2. Pegar a array, comparar entre dois números. 0 e 1, 1 e 2, 2 e 3, 3 e 4 etc..
+Pegar o maior número e manter esse número. ao descobrir qual é o maior número usamos a função indexOf
+let bigNumber = 0
+numAtual
+
+ o loop vai pegar e vai andar um por um até o fim da length.
+ for(index = 0; index > array.length ; index += 1) {
+    let numAtual = arrayNum[index];
+    if(numAtual >= bigNumber) {bigNumber = numAtual} else {
+      bigNumber = BigNumber
+    }
+ }array.indexOf(bigNumber)
