@@ -21,3 +21,7 @@ numAtual
       bigNumber = BigNumber
     }
  }array.indexOf(bigNumber)
+
+ 3. Semelhante ao exercicio 2 só inverter o sinal do if
+
+ 
