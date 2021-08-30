@@ -1,0 +1,45 @@
+5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+Array de teste: [2, 3, 2, 5, 8, 2, 3]; .
+Valor esperado no retorno da função: 2 .
+
+6 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
+Valor de teste: N = 5 .
+Valor esperado no retorno da função: 1+2+3+4+5 = 15 .
+7 - Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word . Considere que a string ending sempre será menor que a string word .
+Valor de teste: 'trybe' e 'be'
+Valor esperado no retorno da função: true
+verificaFimPalavra('trybe', 'be') ;
+Retorno esperado: true
+verificaFimPalavra('joaofernando', 'fernan') ;
+Retorno esperado: false
+
+5. Input - array de inteiros
+  output - número que mais se repete
+  Como fazer isso? 
+  Contador += 1
+  a cada loop ele vai passar por todos os números se caso for igual ele soma um ao contador. 
+  A questão é como ele vai armazenar o número para comparar. Diferente dos exercícios 2 e 3, não podemos comparar entre dois, temos que comparar entre todos. Nesse caso podemos comparar um número de cada vez e fazer um loop para quantos números tem. Nessa situação a conta de loops seria de o número de elementos no array * numero de elementos no array. 
+  No primeiro loop maior, ele vai pegar o primeiro número da array e comparar entre todos números da array com outro loop. E assim por diante
+
+  for (let i = 0; i < arrNum.lenght; i += 1) {
+    actNumber = arrNum[i];
+    for (let i2 = 0 ; i2 < arrNum.lenght; i2 += 1) {
+
+      if (actNumber = arrNum[i2]
+      count += 1
+    }
+  }
+
+  Até aqui contamos os números repetidos, porém eles não foram armazenados. Vamos criar uma variável para armazenar e comparar.
+  let numeroRepetido = 0 
+  temos que comparar e armazenar o número que mais se repete. Temos que armazenar o número antes de iniciar outro processo no loop maior.
+
+  if (count > numeroRepetido) {
+    numeroRepetido = count
+    indexOfRepNumber = i
+  } else {numeroRepetido = numeroRepetido};
+  ,
+  temos que armazenar o index ou número que mais se repete
+  após isso armazenamos o número, temos que limpar o contador
+  count = 0;
+  
