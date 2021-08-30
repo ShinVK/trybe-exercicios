@@ -1,0 +1,36 @@
+Caso Palíndromo
+definição de palavras palíndromas = é uma palavra que permanece igual quando lida de trás pra frente.
+
+1. Como verificamos isso?
+A última letra vira primeira e assim por diante.
+
+2. Depois comparamos, se for igual a palavra dada é um palíndromo, se não - não é um palíndromo.
+
+1. Processo para inverter a palavra:
+1.1 - Primeiro converter a palavra em uma array.
+1.1.1 - Como faço isso? 
+R- Utilizaremos da ferramenta split, onde definimos os espaços para separação como vazio. let space = ''; Assim a cada letra ele vai contar como uma letra dentro da nova array.
+wordBefore = arara;
+splitWord = wordBefore.split(separador)
+nesse caso como queremos separar as palavras, o space = ""; (vazio sem espaço, assim a cada letra ele vai contar como um elemento);
+Após isso transformamos uma palavra em uma array sendo o número de letras o número de elementos da array.
+
+1.2 - Inverter a ordem das letras:
+1.2.1 - temos o array[index], podemos utilizar o index -1, para começar da última letra. Após a cada loop adicionamos uma letra na array, lembrando que a cada loop o index -=1 para ele ir de trás para frente
+ - for(index = array.length-1; index >= 0; index -= 1) {
+   newArray.push(array[index]);
+ }
+
+1.3 - Comparar as duas palavras formadas:
+1.3.1 - if else;
+
+string1.toUpperCase() Para tirar o case sensitive, deixamos tudo em maiúsculo
+
+
+feito isso, vamos transformar tudo isso em uma função:
+input - palavra pra ver se é palíndroma
+output - se for igual é palíndroma, se não for igual não é palíndroma;
+
+
+
+
