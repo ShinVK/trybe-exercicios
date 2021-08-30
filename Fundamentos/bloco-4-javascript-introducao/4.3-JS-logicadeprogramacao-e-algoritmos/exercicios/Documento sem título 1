@@ -44,8 +44,8 @@ porém temos que encontrar uma forma de calcular isso:
 DETERMINAMOS QUE O NÚMERO DE ASTERÍSCOS VAI SER IGUAL AO NÚMERO DO ÍNDICE
 se ímpar, temos n - 1 espaços em branco + 1*. No próximo loop falamos para add +=2
 assim temos: index = numero de estrelas
-	blank = n - index
-	blank em cada lado = blank/2
+	 blank total = n(determinado ex7) - index (1,3,5,7)   blanktotal = 7 - 5 = 2 
+	blank em cada lado = blank/2 1
 	
 
 se for par temos o início do index em 2. e loop de 2 em 2 +=2
@@ -75,7 +75,7 @@ ex- blank space = 5 -1 /2 a gnt sabe que vai ser 2 espaços de cada lado
 portanto podemos colocar uma condicional até chegar nesses dois espaços
 portanto temos: 
 if index2 <= blank_space {line += blank}
-if index2 <= n - blank_space {line += star]
+if index2 <= n - blank_space {line += star]  5-1 = 4/2 = 2  
 if index2 >= n-blank_space {line += blank}
 
 EX BONUS:

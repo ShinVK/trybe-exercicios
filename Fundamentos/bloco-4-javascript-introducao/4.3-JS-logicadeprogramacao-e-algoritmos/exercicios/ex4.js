@@ -1,4 +1,4 @@
-const n = 17;
+const n = 5;
 let line = '';
 
 const star = "*"
@@ -35,7 +35,7 @@ else {for (let index = 1; index <= n; index += 2) {
   let line = '';
   let blank_space = (n - index)/2;
 
-  for (let index2 = 1; index2 <= n; index2 += 1) {
+  for (let index2 = 1; index2 <= n; index2 += 1) { 
     
     if (index2 <= blank_space) {
       line += _blank;

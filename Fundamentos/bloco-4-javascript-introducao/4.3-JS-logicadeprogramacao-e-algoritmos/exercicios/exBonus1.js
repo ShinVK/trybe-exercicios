@@ -1,4 +1,4 @@
-const n = 20; //tem que ser ímpar
+const n = 5; //tem que ser ímpar
 let line = '';
 
 const star = "*"

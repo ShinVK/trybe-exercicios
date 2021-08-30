@@ -1,4 +1,4 @@
-const n = 22; //tem que ser maior que 1
+const n = 5; //tem que ser maior que 1
 let line = '';
 
 const star = "*"
@@ -36,7 +36,7 @@ if (n % 2 === 0) {
   
       else if(index2 >= blank_space && index < n) {
         line += _blank;
-      }
+      } 
       else if(index = n) {
         line += star;
       }
