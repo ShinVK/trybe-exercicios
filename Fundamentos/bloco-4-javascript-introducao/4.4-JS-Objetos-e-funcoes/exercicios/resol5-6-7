@@ -2,16 +2,6 @@
 Array de teste: [2, 3, 2, 5, 8, 2, 3]; .
 Valor esperado no retorno da função: 2 .
 
-6 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
-Valor de teste: N = 5 .
-Valor esperado no retorno da função: 1+2+3+4+5 = 15 .
-7 - Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word . Considere que a string ending sempre será menor que a string word .
-Valor de teste: 'trybe' e 'be'
-Valor esperado no retorno da função: true
-verificaFimPalavra('trybe', 'be') ;
-Retorno esperado: true
-verificaFimPalavra('joaofernando', 'fernan') ;
-Retorno esperado: false
 
 5. Input - array de inteiros
   output - número que mais se repete
@@ -43,3 +33,31 @@ Retorno esperado: false
   após isso armazenamos o número, temos que limpar o contador
   count = 0;
   
+
+6 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
+Valor de teste: N = 5 .
+Valor esperado no retorno da função: 1+2+3+4+5 = 15 .
+
+input : N
+output: somatória de N
+
+function summation(n)
+const n = 5
+
+fazemos um loop, de 1 a n, onde a cada loop acrescenta o valor do index 
+for(let index = 1; index <= n; n += 1) {
+  let sumPlus += index;
+}
+return sumPlus
+
+
+
+
+
+7 - Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word . Considere que a string ending sempre será menor que a string word .
+Valor de teste: 'trybe' e 'be'
+Valor esperado no retorno da função: true
+verificaFimPalavra('trybe', 'be') ;
+Retorno esperado: true
+verificaFimPalavra('joaofernando', 'fernan') ;
+Retorno esperado: false
