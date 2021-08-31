@@ -61,3 +61,22 @@ verificaFimPalavra('trybe', 'be') ;
 Retorno esperado: true
 verificaFimPalavra('joaofernando', 'fernan') ;
 Retorno esperado: false
+
+Nessa questão temos que comparar as strings pelo fim delas.
+podemos utilizar da ferramenta slice: 
+str.slice(startIndex[, endIndex]) no caso colocamos somente o parametro start index que é onde ele deve começar a cortar a palavra, tem que ser negativo pra contar de trás para frente.
+
+nesse caso temo str.slice(startIndex) onde:
+startIndex = - endString.length
+
+após isso é só comparar com um if else
+
+parâmetros : totalStr, endStr
+
+colocamos as variáveis dentro da função que será:
+z: - endStr.length;
+if(totalStr.slice(z) === endStr) {
+  return true;
+} else {
+  false;
+}
