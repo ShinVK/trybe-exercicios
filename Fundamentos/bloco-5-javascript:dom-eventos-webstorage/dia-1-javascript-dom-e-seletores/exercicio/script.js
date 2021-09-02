@@ -35,4 +35,12 @@
   exerc3(0, "white");
 
   //ex4
+  function exerc4(n, p) {
+    let ex4 = document.getElementsByTagName("h1");
+    ex4[n].innerText = p;
+  }
+
+  let correctStr = "Exercício 5.1 - JavaScript"
+  exerc4(0, correctStr);
+
   
