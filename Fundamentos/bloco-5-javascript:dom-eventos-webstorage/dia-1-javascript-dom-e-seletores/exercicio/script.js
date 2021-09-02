@@ -18,4 +18,9 @@
   txt2years = "Como estarei daqui 2 anos";
   exerc1(0, txt2years);
 
-  
+  function exerc2(n, color) {
+    let ex2 = document.getElementsByClassName("main-content");
+    ex2[n].style.background = color;
+  }
+
+  exerc2(0, "rgb(76,164,109");
