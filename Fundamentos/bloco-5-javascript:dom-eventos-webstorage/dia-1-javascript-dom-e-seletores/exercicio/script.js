@@ -10,7 +10,7 @@
         5-Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
         6-Crie uma função que exiba o conteúdo de todas as tags <p> no console.
       */
-        
+  //ex1      
  function exerc1(n, p) {
   let ex1 = document.getElementsByTagName("p");
   ex1[n].innerText = p;
@@ -18,9 +18,21 @@
   txt2years = "Como estarei daqui 2 anos";
   exerc1(0, txt2years);
 
-  function exerc2(n, color) {
+  //ex2
+ function exerc2(n, color) {
     let ex2 = document.getElementsByClassName("main-content");
     ex2[n].style.background = color;
-  }
+  } 
 
   exerc2(0, "rgb(76,164,109");
+
+  //ex3
+  function exerc3(n, color) {
+    let ex3 = document.getElementsByClassName("center-content");
+    ex3[n].style.background = color;
+  }
+
+  exerc3(0, "white");
+
+  //ex4
+  
