@@ -53,4 +53,12 @@
 
   exerc5("uppercase")
 
-  
+  //ex6
+  function exerc6() {
+    let ex6 = document.getElementsByTagName("p");
+    for(let i = 0; i < ex6.length; i += 1){
+      console.log(ex6[i].innerText);
+    }
+  }
+
+  exerc6();
