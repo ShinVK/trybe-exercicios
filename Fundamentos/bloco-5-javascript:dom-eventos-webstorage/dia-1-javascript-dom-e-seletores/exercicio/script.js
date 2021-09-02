@@ -43,4 +43,14 @@
   let correctStr = "Exercício 5.1 - JavaScript"
   exerc4(0, correctStr);
 
+  //ex5
+  function exerc5(s) {
+    let ex5 = document.getElementsByTagName("p");
+    for(let i = 0; i < ex5.length; i += 1){
+      ex5[i].style.textTransform = s;
+    }
+  }
+
+  exerc5("uppercase")
+
   
