@@ -93,3 +93,5 @@ for (let i = 3; i < arrayH3.length; i += 1) {
 //ex12
 mainContent.removeChild(sectionLeft);
 
+//ex13
+sectionRight.style.marginRight = 'auto';
