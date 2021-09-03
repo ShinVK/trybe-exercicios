@@ -1,0 +1,101 @@
+1 - Faça um programa que receba uma string em algarismos romanos e retorne o número que a string representa.
+
+Dicas:
+
+Uma string é um array de caracteres, então cada elemento do array é uma letra.
+O valor de cada numeral romano é:
+
+Que tal criar um objeto que associe cada letra a um numeral para fácil consulta?
+Atenção! Quando você tem um número pequeno à direita de um número grande, eles devem ser somados. 
+
+Exemplo: XI = 10 + 1 = 11. No entanto, se o número pequeno está à esquerda de um número maior que ele, ele deve ser subtraído. Exemplo: IX = 10 - 1 = 9.
+
+Parâmetros: número romano em string
+constantes: objeto com números romanos e seus valores arábicos.
+Variáveis: r (index)
+Objetivos: Acredito que há duas formas de resolver o exercício.
+    1ª Maneira: Dividir em duas partes o exercício 
+        -- 1.1 - Criar um objeto com todos os números de 1 a 10.000
+        -- 1.2 - Associar o número em romano com o número arábico
+        Problemas: Vai criar um objeto muito grande e desnecessário.
+
+    2ª Maneira: Fazer um cálculo através dos números romanos. 
+    condições: se o número menor está a direita -- ele soma
+               se o número menor está a esquerda - ele subtrai
+               casos a ser analisados: 
+               - Como fazer o programa determinar quando o número está a direita ou a esquerda do número?
+                ex. DXCL ---- 500 10 100 50 = esse número é igual a 640 
+                mas seria melhor lido se tivesse na ordem correta - DCXL 
+                ex2. XMCMC = 10 1000 (100-900) 100 = 1990
+                da mesma forma, fica difícil e não lógico entender o número romano. A melhor forma de escrever seria M CM XC 1000 900 90
+
+  Iremos utilizar da segunda maneira.  
+
+        Com isso podemos analisar duas coisas: 
+        - Como podemos separar os números corretamente? 
+        - É necessário separar os números corretamente?
+
+        Chegamos a conclusão que não é necessário ordenar os números corretamente. Pois mesmo escrito de forma diferente, o resultado é o mesmo.
+        A lógica por trás desse exercício é que que sempre que um número menor vem antes do número maior, ele vai subtrair do valor total; 
+        Ou seja podemos pegar primeiro o maior número, e o que vemos primeiro de todas as letras da string. 
+        
+        Ex: xMcmc - Nesse caso primeiro pegamos o 1º M que simboliza mil, depois
+        pegamos o segundo m xmcxMc = que também simboliza 1000, assim temos 2.000
+        A soma dos dois MM's teríamos 2mil. Após isso vemos os números a direita do maior número, sempre que temos dois (PENSAMENTO ANULADO)
+        
+        vamos pro próximo:
+        ex: XMCMC - A resolução é feita de forma comparativa de dois em dois números, se o primeiro número comparado é menor que o segundo, então ele subtrai, se o primeiro número é maior que o segundo, então o segundo é adicionado ao primeiro. 
+        Cuidados que devemos ter: Não somar ou subtrair duas vezes um mesmo número, pois a referência dele vai ser a posição dele no array, podendo ser um na frente ou atrás. 
+
+        banco de dados: objeto de números romanos.
+
+        Tendo o pensamento da resolução, vamos aos passos que iremos seguir para resolver o problema
+  XMCXMC = -10 + 1000 + 100 - 10 + 1000 + 100 = 2180
+
+
+
+Passos: 
+1º -inicialmente iremos fazer um banco de dados com todos números romanos, dessa forma sempre que o elemento da matriz for igual ao objeto teremos uma forma de referenciar em algo. 
+- utilizaremos o for of ele já da o valor do número do índice do array.
+- não poderemos utilizar o for of por ele não funcionar com objetos.
+
+Feito o objeto banco de dados, iremos pra segunda parte.
+2º - Uma string é uma array de letras, portanto não precisamos converter essa string em uma array (como tinha feito nos outros exercícios (fiz atoa) hehe).
+
+O número atual vai se comparar sempre com o da frente? 
+teste; número atual xmcXmc - x comparado com m é menor então vai subtrair 
+xmCxmc - c é maior que x então vai somar. 
+xMcxmc - M é maior que c então vai somar. 
+xCmxmc - C é menor do que m então vai subtrair 
+
+XCMXMC - -10 -100 1000 -10 1000 + 100
+          -110 1000 1000 90
+CXMXMC - 100 -10 1000 -10 1000 100 2180  MMCCXX
+
+Depois dos testes vemos que sim, a comparação é sempre com o número da frente.
+vou fazer um sem regras e outro com regras
+
+
+obs: acabei de ler as regras:
+Regras de utilização dos Números Romanos
+Existem algumas normas de utilização dos números romanos, como por exemplo:
+
+A letra I é utilizada somente antes do V e do X, por exemplo: IV = 4; IX = 9.
+A letra X é utilizada somente antes do L e do C, por exemplo: XL = 40; XC = 90
+A letra C é utilizada somente antes do D e do M, por exemplo, CD = 400; CM = 900
+As letras I, X, C e M são agrupadas somente seguidas por três vezes, por exemplo: III = 3; XXX = 30.
+Para representar números maiores que 4000 usa-se um traço acima das letras, o que significa a multiplicação do número por mil.
+Letras iguais somam-se os valores, por exemplo: II = 2; XX = 20.
+Duas letras diferentes com o menor antes do maior, subtraem-se os seus valores, por exemplo: IV = 4; IX = 9.
+Duas letras diferentes com o maior antes do menor, somam-se os seus valores, por exemplo: VI = 6; XI = 11.
+Se entre duas letras quaisquer existe outra menor, o valor desta pertencerá a letra seguinte a ela, por exemplo: XIX = 19; LIV = 54.
+
+
+avamax
+
+
+
+
+Function:
+
+
