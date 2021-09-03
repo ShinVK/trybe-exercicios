@@ -95,3 +95,6 @@ mainContent.removeChild(sectionLeft);
 
 //ex13
 sectionRight.style.marginRight = 'auto';
+
+//ex14
+centerContent.parentElement.style.backgroundColor = 'green';
