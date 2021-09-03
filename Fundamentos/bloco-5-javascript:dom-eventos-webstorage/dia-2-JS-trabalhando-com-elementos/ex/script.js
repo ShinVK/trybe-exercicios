@@ -98,3 +98,7 @@ sectionRight.style.marginRight = 'auto';
 
 //ex14
 centerContent.parentElement.style.backgroundColor = 'green';
+
+//ex15
+ulRight.removeChild(ulRight.lastChild);
+ulRight.removeChild(ulRight.lastChild);
