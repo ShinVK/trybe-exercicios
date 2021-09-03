@@ -47,4 +47,9 @@ const section3 = document.createElement('section');
 mainContent.appendChild(section3);
 section3.className = 'right-content';
 
-
+//ex7
+const img1 = document.createElement('img');
+const sectionLeft = document.querySelector('.left-content');
+sectionLeft.appendChild(img1);
+img1.src = 'https://picsum.photos/200';
+img1.className = 'small-image';
