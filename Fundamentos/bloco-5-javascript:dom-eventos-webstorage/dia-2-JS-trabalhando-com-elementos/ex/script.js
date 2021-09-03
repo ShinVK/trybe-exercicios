@@ -10,8 +10,8 @@
 // 8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
 // 9. Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
 
-// const titleH = document.querySelector('.title-heading');
-// newTitle.className = 'title-heading';
+const titleH = document.querySelector('.title-heading');
+newTitle.className = 'title-heading';
 
 //ex1
 const newTitle = document.createElement('h1');
