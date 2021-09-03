@@ -65,3 +65,9 @@ for (let i = 0; i < numExt.length; i += 1){
   li1.innerText = `${numExt[i]}`;
   ulRight.appendChild(li1);
 }
+
+//ex9
+for (let i2= 1; i2<= 3; i2+= 1) {
+  const head3 = document.createElement('h3');
+  mainContent.appendChild(head3);
+}
