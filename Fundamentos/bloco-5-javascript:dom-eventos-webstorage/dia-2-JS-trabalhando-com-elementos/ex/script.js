@@ -19,6 +19,15 @@ const titleH = document.querySelector('.title-heading');
 titleH.innerText = "Exercício 5.2 JavaScript DOM com filho da tag Body";
 
 //ex2
-const newMain = document.createElement('mains');
+const newMain = document.createElement('main');
 newMain.className = 'main-content';
 bodyElement.appendChild(newMain);
+
+//ex3
+const newSection = document.createElement('section');
+const section1 = newSection;
+const mainContent = document.querySelector('.main-content');
+mainContent.appendChild(section1);
+section1.className = 'center-content';
+
+//ex4
