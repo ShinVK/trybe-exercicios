@@ -10,13 +10,15 @@
 // 8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
 // 9. Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
 
+// const titleH = document.querySelector('.title-heading');
+// newTitle.className = 'title-heading';
+
 //ex1
 const newTitle = document.createElement('h1');
-newTitle.className = 'title-heading';
+const t1 = newTitle;
 const bodyElement = document.querySelector('body');
-bodyElement.appendChild(newTitle);
-const titleH = document.querySelector('.title-heading');
-titleH.innerText = "Exercício 5.2 JavaScript DOM com filho da tag Body";
+bodyElement.appendChild(t1);
+t1.innerText = "Exercício 5.2 JavaScript DOM com filho da tag Body";
 
 //ex2
 const newMain = document.createElement('main');
@@ -37,3 +39,7 @@ const centerContent = document.querySelector('.center-content');
 centerContent.appendChild(p1);
 p1.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe non quam ipsam doloribus necessitatibus adipisci quae autem ut sed. Quia repudiandae deserunt dignissimos laboriosam dolores, eligendi eum aliquid id praesentium.';
 
+//ex5
+const section2 = newSection;
+mainContent.appendChild(section2);
+section2.className = 'left-content';
