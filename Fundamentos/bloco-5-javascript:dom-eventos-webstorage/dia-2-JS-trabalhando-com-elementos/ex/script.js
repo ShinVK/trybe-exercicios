@@ -90,3 +90,6 @@ for (let i = 3; i < arrayH3.length; i += 1) {
   mainContent.children[i].className = "description";
 }
 
+//ex12
+mainContent.removeChild(sectionLeft);
+
