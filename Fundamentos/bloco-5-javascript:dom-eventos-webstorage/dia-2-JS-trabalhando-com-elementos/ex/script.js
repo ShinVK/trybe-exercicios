@@ -26,20 +26,25 @@ newMain.className = 'main-content';
 bodyElement.appendChild(newMain);
 
 //ex3
-const newSection = document.createElement('section');
-const section1 = newSection;
+const section1 = document.createElement('section');
 const mainContent = document.querySelector('.main-content');
 mainContent.appendChild(section1);
 section1.className = 'center-content';
 
 //ex4
-const newP = document.createElement('p');
-const p1 = newP;
+const p1 = document.createElement('p');
 const centerContent = document.querySelector('.center-content');
 centerContent.appendChild(p1);
 p1.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe non quam ipsam doloribus necessitatibus adipisci quae autem ut sed. Quia repudiandae deserunt dignissimos laboriosam dolores, eligendi eum aliquid id praesentium.';
 
 //ex5
-const section2 = newSection;
+const section2 = document.createElement('section');
 mainContent.appendChild(section2);
 section2.className = 'left-content';
+
+//ex6
+const section3 = document.createElement('section');
+mainContent.appendChild(section3);
+section3.className = 'right-content';
+
+
