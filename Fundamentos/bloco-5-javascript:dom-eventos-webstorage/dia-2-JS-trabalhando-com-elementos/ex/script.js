@@ -53,3 +53,15 @@ const sectionLeft = document.querySelector('.left-content');
 sectionLeft.appendChild(img1);
 img1.src = 'https://picsum.photos/200';
 img1.className = 'small-image';
+
+//ex8
+const sectionRight = document.querySelector('.right-content');
+const numExt = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+const ul1 = document.createElement('ul');
+sectionRight.appendChild(ul1);
+const ulRight = document.querySelector('.right-content ul');
+for (let i = 0; i < numExt.length; i += 1){
+  let li1 = document.createElement('li');
+  li1.innerText = `${numExt[i]}`;
+  ulRight.appendChild(li1);
+}
