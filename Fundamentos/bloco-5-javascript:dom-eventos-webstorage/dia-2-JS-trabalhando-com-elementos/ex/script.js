@@ -84,3 +84,9 @@ for (let i2= 1; i2<= 3; i2+= 1) {
 const h1class = document.querySelector('h1');
 h1class.className = 'title';
 
+//ex11
+const arrayH3 = mainContent.children;
+for (let i = 3; i < arrayH3.length; i += 1) {
+  mainContent.children[i].className = "description";
+}
+
