@@ -59,3 +59,30 @@ function createBtnFeriados(feriados) {
 }
 
 createBtnFeriados("Feriados");
+
+function holidayShine() {
+  const btnHoliday = document.getElementById("btn-holiday");
+  const daysTotals = document.getElementsByClassName("holiday");
+  const newColor = "green";
+  const defaultColor = "rgb(238,238,238)";
+
+  btnHoliday.addEventListener("click", function () {
+    for (let i = 0; i < daysTotals.length; i += 1) {
+      if (daysTotals[i].style.backgroundColor === newColor) {
+        daysTotals[i].style.backgroundColor = defaultColor;
+      } else {
+        daysTotals[i].style.backgroundColor = newColor;
+      }
+    }
+  });
+}
+
+holidayShine();
+
+function createBtnFriday(sexta) {
+  const btnCnt = document.querySelector(".buttons-container");
+  const newBtn = document.createElement("button");
+  newBtn.id = "btn-friday";
+  newBtn.innerText = sexta;
+  btnCnt.appendChild(newBtn);
+}
