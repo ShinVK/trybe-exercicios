@@ -88,3 +88,22 @@ function createBtnFriday(sexta) {
 }
 
 createBtnFriday("sexta-feira");
+
+function fridayShines() {
+  const btnFriday = document.getElementById("btn-friday");
+  const daysTotals = document.getElementsByClassName("friday");
+  const newColor = "blue";
+  const defaultColor = "rgb(238,238,238)";
+
+  btnFriday.addEventListener("click", function () {
+    for (let i = 0; i < daysTotals.length; i += 1) {
+      if (daysTotals[i].style.backgroundColor === newColor) {
+        daysTotals[i].style.backgroundColor = defaultColor;
+      } else {
+        daysTotals[i].style.backgroundColor = newColor;
+      }
+    }
+  });
+}
+
+fridayShines();
