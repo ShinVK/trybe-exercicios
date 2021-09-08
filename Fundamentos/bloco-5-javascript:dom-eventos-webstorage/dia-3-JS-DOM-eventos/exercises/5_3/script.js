@@ -107,3 +107,13 @@ function fridayShines() {
 }
 
 fridayShines();
+
+function zoomDay(event) {
+  event.target.style.fontSize = "60px";
+}
+function diszoomDay(event) {
+  event.target.style.fontSize = "30px";
+}
+const daySelect = document.getElementById("days");
+daySelect.addEventListener("mouseover", zoomDay);
+daySelect.addEventListener("mouseout", diszoomDay);
