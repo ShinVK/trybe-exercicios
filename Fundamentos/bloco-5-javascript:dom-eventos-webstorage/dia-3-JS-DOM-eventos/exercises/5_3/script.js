@@ -86,3 +86,5 @@ function createBtnFriday(sexta) {
   newBtn.innerText = sexta;
   btnCnt.appendChild(newBtn);
 }
+
+createBtnFriday("sexta-feira");
