@@ -168,3 +168,20 @@ function tskSlct2() {
 }
 
 tskSlct2();
+
+//ex10
+//primeiro setamos a cor que queremos
+
+function setAColor() {
+  const colortest = document.querySelector(".task").style.backgroundColor;
+  const daysCalendar = document.querySelector("#days");
+  daysCalendar.addEventListener("click", function (event) {
+    if (event.target.style.color !== colortest) {
+      event.target.style.color = colortest;
+    } else {
+      event.target.style.color = "rgb(119,119,119)";
+    }
+  });
+}
+
+setAColor();
