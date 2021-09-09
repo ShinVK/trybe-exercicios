@@ -185,3 +185,42 @@ function setAColor() {
 }
 
 setAColor();
+
+//ex bonus
+//keycode enter = 13
+//para adicionar o enter como keycode, colocamos um evento como parâmetro, e declaramos uma variável como key = evento.wich || evento.keyCode
+//após isso setamos para que quando teclarmos a tecla enter(keycode=13 ele execute a função) if (key == 13) expressao
+//para selecionar o input box e usar no javascript utilizar do .value no final
+
+function addComp() {
+  const inputest = document.querySelector("#task-input").value;
+  const newDivContainer = document.querySelector(".compro");
+  if (inputest !== "") {
+    const newP = document.createElement("p");
+    newP.innerText = inputest;
+    newDivContainer.appendChild(newP);
+    document.querySelector("#task-input").value = "";
+  } else {
+    alert("digite um texto valido");
+  }
+}
+
+const inputest2 = document.querySelector("#task-input");
+inputest2.addEventListener("keyup", function (event) {
+  let inputest = document.querySelector("#task-input").value;
+  const newDivContainer = document.querySelector(".compro");
+  let key = event.which || event.keyCode;
+  if (key === 13) {
+    if (inputest !== "") {
+      const newP = document.createElement("p");
+      newP.innerText = inputest;
+      newDivContainer.appendChild(newP);
+      document.querySelector("#task-input").value = "";
+    } else {
+      alert("digite um texto valido");
+    }
+  }
+});
+
+const btnadd = document.querySelector("#btn-add");
+btnadd.addEventListener("click", addComp);
