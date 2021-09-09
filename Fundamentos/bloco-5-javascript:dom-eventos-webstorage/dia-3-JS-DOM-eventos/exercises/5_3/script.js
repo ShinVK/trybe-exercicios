@@ -139,4 +139,32 @@ function lgndColor(cor) {
 }
 
 lgndColor("red");
-lgndColor("green");
+
+//ex9
+
+function tskSlct() {
+  const divColor = document.querySelector(".task");
+  divColor.addEventListener("click", function () {
+    if (divColor.className === "task") {
+      divColor.className = "task selected";
+    } else {
+      divColor.className = "task";
+    }
+  });
+}
+// tskSlct();
+
+//jeito dois ex 9 utilizando event
+function tskSlct2() {
+  const taskSel = document.getElementsByClassName("task selected");
+  const taskNSel = document.querySelector(".task");
+  taskNSel.addEventListener("click", function (event) {
+    if (taskSel.length === 0) {
+      event.target.className = "task selected";
+    } else {
+      event.target.className = "task";
+    }
+  });
+}
+
+tskSlct2();
