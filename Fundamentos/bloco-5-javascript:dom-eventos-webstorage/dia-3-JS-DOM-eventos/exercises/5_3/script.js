@@ -128,3 +128,15 @@ function tasks(tarefa) {
 }
 
 tasks("enviar readme B5d3");
+
+//ex8
+function lgndColor(cor) {
+  const myTasks = document.querySelector(".my-tasks");
+  const newDiv = document.createElement("div");
+  newDiv.className = "task";
+  newDiv.style.backgroundColor = cor;
+  myTasks.appendChild(newDiv);
+}
+
+lgndColor("red");
+lgndColor("green");
