@@ -108,12 +108,23 @@ function fridayShines() {
 
 fridayShines();
 
+//ex6
 function zoomDay(event) {
-  event.target.style.fontSize = "60px";
+  event.target.style.fontSize = "35px";
 }
 function diszoomDay(event) {
-  event.target.style.fontSize = "30px";
+  event.target.style.fontSize = "20px";
 }
 const daySelect = document.getElementById("days");
 daySelect.addEventListener("mouseover", zoomDay);
 daySelect.addEventListener("mouseout", diszoomDay);
+
+//ex7
+function tasks(tarefa) {
+  const myTasks = document.querySelector(".my-tasks");
+  const newTask = document.createElement("span");
+  newTask.innerText = tarefa;
+  myTasks.appendChild(newTask);
+}
+
+tasks("enviar readme B5d3");
