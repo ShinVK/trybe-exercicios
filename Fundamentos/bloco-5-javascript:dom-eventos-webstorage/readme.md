@@ -7,15 +7,15 @@
 - [x] 📖 Aula 18 - Dia inteiro de SOFTSKILLS 01.09 - Quarta-Feira
 - [x] 📖 Aula 5.1 (19) - JavaScript - DOM e seletores. 02.09 - Quinta-Feira
 - [x] 📖 Aula 5.2 (20)- JavaScript - Trabalhando com elementos. 03.09 - Sexta-Feira
-- [ ] 📖 Aula 5.3 (21) - JavaScript - Eventos. 08.09 - Quarta-Feira
-- [ ] 📖 Aula 5.4 (22)- JavaScript - WebStorage 09.09 - Quinta-Feira
-- [ ] 📖 Projeto 3 (23)- Projeto Arte com Pixels 10.09 - Sexta-Feira
-- [ ] 📖 Projeto 4 (23)- Projeto Lista de tarefas 13.09 - Segunda-Feira
-- [ ] 📖 Projeto Bonus (23)- Projeto Bonus 14.09 - Terça-Feira
+- [x] 📖 Aula 5.3 (21) - JavaScript - Eventos. 08.09 - Quarta-Feira
+- [x] 📖 Aula 5.4 (22)- JavaScript - WebStorage 09.09 - Quinta-Feira
+- [x] 📖 Projeto 3 (23)- Projeto Arte com Pixels 10.09 - Sexta-Feira
+- [x] 📖 Projeto 4 (23)- Projeto Lista de tarefas 13.09 - Segunda-Feira
+- [x] 📖 Projeto Bonus (23)- Projeto Bonus 14.09 - Terça-Feira
 
 ### 📋 Fundamentos do Desenvolvimento Web
 - BLOCO 1 - UNIX & BASH  ✅
 - BLOCO 2 - Git, GitHub e Internet ✅
 - BLOCO 3 - Introdução à HTML e CSS ✅
 - BLOCO 4 - Introdução à JavaScript e Lógica de Programação ✅
-- BLOCO 5 - JavaScript: DOM, eventos e WebStorage
+- BLOCO 5 - JavaScript: DOM, eventos e WebStorage ✅
