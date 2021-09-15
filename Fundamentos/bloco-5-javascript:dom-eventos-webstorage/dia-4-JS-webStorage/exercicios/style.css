@@ -1,0 +1,100 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Glory", sans-serif;
+}
+.main-page {
+  margin: 0 15rem;
+  min-height: 100vh;
+  background-color: rgb(223, 230, 233);
+  box-shadow: 1px 10px 30px 15px rgba(100, 100, 100, 0.5);
+}
+
+.heading__content {
+  width: 100%;
+  display: flex;
+}
+
+.title-heading {
+  padding: 15rem 5rem 5rem 15rem;
+  font-size: 5rem;
+  width: 50%;
+  text-transform: uppercase;
+  text-align: right;
+  color: #0984e3;
+}
+
+.title-img img {
+  height: 43rem;
+  box-shadow: 15px 10px 15px rgba(100, 100, 100, 0.8);
+}
+
+.title-img {
+  padding-top: 8rem;
+  padding-left: 8rem;
+}
+
+.title-img2 {
+  position: absolute;
+  right: 18%;
+  top: 12%;
+  box-shadow: 15px 10px 15px rgba(100, 100, 100, 0.8);
+}
+
+.title-img2 img {
+  height: 43rem;
+}
+
+.heading2 {
+  width: 100%;
+}
+.title-heading-principal {
+  text-transform: uppercase;
+  padding: 7rem 10rem 2rem 10rem;
+  font-size: 9rem;
+  letter-spacing: 1rem;
+  color: rgb(99, 110, 114);
+}
+
+.main-content-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2.5rem;
+  padding: 2rem 10rem 2rem 10rem;
+  font-size: 2.3rem;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  line-height: normal;
+}
+
+.menu {
+  position: absolute;
+  padding: 25rem 2rem;
+  font-size: 3rem;
+}
+
+.btn {
+  margin-top: 3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #dfe6e9;
+  color: rgb(45, 52, 54);
+  height: 5rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #636e72;
+  color: rgb(129, 236, 236);
+}
