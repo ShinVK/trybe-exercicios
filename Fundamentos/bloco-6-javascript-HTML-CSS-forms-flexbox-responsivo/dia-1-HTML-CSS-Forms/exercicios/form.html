@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Formulário</h1>
+    </header>
+    <div class="form__content">
+      <form action="" method="GET">
+        <fieldset>
+          <label for="name_input">Nome Completo: </label>
+          <input type="text" name="name" id="name_input" maxlength="40" required placeholder="Seu nome completo">
+          <label for="email_input">Digite seu email: </label>
+          <input type="email" name="email" id="email_input" maxlength="50" placeholder="email@email.com" required>
+
+
+          <label for="cpf_input">CPF: </label>
+          <input type="text" name="cpf" id="cpf_input" maxlength="11" required placeholder="CPF sem ponto">
+          <label for="adress_input">Endereço: </label>
+          <input type="text" name="adress" id="adress_input" maxlength="200" required>
+          <label for="city_input">Cidade: </label>
+          <input type="text" name="city" id="city_input" maxlength="28" required>
+
+          <label for="state_input">Estado: </label>
+          <select name="state" id="state">
+          </select>
+          <br>
+          <label for="house_type"> Tipo de moradia: </label>
+
+          <input type="radio" name="house_type" id="house_input" value="house" required> <label
+            for="house_input">Casa</label>
+
+          <label for="apart_input"><input type="radio" name="house_type" value="apart" id="apart_input" required>
+            Apartamento</label>
+        </fieldset>
+        <fieldset>
+          <h2>Carreira Profissional</h2>
+          <label for="abst_cur">Resumo do Currículo</label> <br>
+          <textarea name="abstractCur" id="abst_cur" cols="137" rows="5" maxlength="1000" required
+            placeholder="Escreva sobre seu currículo"></textarea>
+          <br>
+          <label for="job">Cargo</label>
+          <input type="text" name="job" id="job" maxlength="40" required placeholder="Seu último emprego">
+          <label for="job_description">Descrição do Cargo</label>
+          <input type="text" name="job_description" id="job_description" maxlength="500" required
+            placeholder="Descrição último emprego">
+          <label for="data_inicio">Data de início</label>
+          <input type="date" required name="data_inicio" id="data_inicio">
+        </fieldset>
+        <button type="submit" id="subm">Enviar</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
