@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
+    <script src="dist/js/DatePickerX.min.js"></script>
+    <link href="validation.min.css" rel="stylesheet">
+    <script src="validation.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+
+    </header>
+    <div class="form__content container">
+      <h1 class="title-head">Formulário</h1>
+      <form action="" class="js-form" method="GET">
+        <fieldset>
+          <label for="name_input">Nome Completo: </label>
+          <input class='form-control validate' data-validate="required" type="text" name="name" id="name_input"
+            maxlength="40" required placeholder="Seu nome completo">
+          <div class="row">
+            <div class="col">
+              <label for="email_input">Digite seu email: </label>
+              <input data-validate="required,email" class='form-control validate' type="email" name="email"
+                id="email_input" maxlength="50" placeholder="email@email.com" required>
+            </div>
+            <div class="col">
+              <label for="cpf_input">CPF: </label>
+              <input data-validate="required" class='form-control validate' type="text" name="cpf" id="cpf_input"
+                maxlength="11" required placeholder="CPF sem ponto">
+            </div>
+          </div>
+
+
+
+          <label for="adress_input">Endereço: </label>
+          <input data-validate="required" class='form-control validate' type="text" name="adress" id="adress_input"
+            maxlength="200" required>
+
+          <div class="row">
+            <div class="col">
+
+              <label for="city_input">Cidade: </label>
+              <input data-validate="required" class='form-control validate' type="text" name="city" id="city_input"
+                maxlength="28" required>
+            </div>
+            <div class="col">
+              <label for="state_input">Estado: </label>
+              <select class='form-control' name="state" id="state">
+              </select>
+            </div>
+          </div>
+          <label for="house_type"> Tipo de moradia: </label>
+
+          <input type="radio" name="house_type" id="house_input" value="casa" required checked> <label
+            for="house_input">Casa</label>
+
+          <label for="apart_input"><input type="radio" name="house_type" value="apartamento" id="apart_input" required>
+            Apartamento</label>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+          <h2>Carreira Profissional</h2>
+          <label for="abst_cur">Resumo do Currículo</label> <br>
+          <textarea data-validate="required" class='form-control validate' name="abstractCur" id="abst_cur" cols="50"
+            rows="5" maxlength="1000" required placeholder="Escreva sobre seu currículo"></textarea>
+          <label for="job">Cargo</label>
+          <input data-validate="required" class='form-control validate' type="text" name="job" id="job" maxlength="40"
+            required placeholder="Seu último emprego">
+          <label for="job_description">Descrição do Cargo</label>
+          <input data-validate="required" class='form-control validate' type="text" name="job_description"
+            id="job_description" maxlength="500" required placeholder="Descrição último emprego">
+          <label for="data_inicio">Data de início</label>
+          <input data-validate="required" class='form-control validate' type="text" required name="data_inicio"
+            id="data_inicio">
+        </fieldset>
+
+      </form>
+      <div class="content bott">
+        <button class="btn blue" type="submit" id="subm">Enviar</button>
+        <button class="btn blue" id="res" type="reset">Reset</button>
+      </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
