@@ -2,7 +2,7 @@
 
 ## 📚 Aula 6.2 - Bibliotecas JavaScript - Frameworks CSS
 ## Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
-#### 🗓️ Quinta-feira, 17 de setembro de 2021 
+#### 🗓️ Quinta-feira, 16 de setembro de 2021 
 
 ### 📖 Aula 27 
 ### 📓 Exercícios
