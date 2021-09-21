@@ -140,3 +140,75 @@ header {
 .head_text {
   line-height: 4rem;
 }
+
+.information__content {
+  font-size: 1.5rem;
+  font-family: "Rubik";
+}
+
+.fas {
+  font-size: 2.4rem;
+  margin-left: 2rem;
+  color: #8ea2b4;
+  display: inline-block;
+}
+
+.fas:hover {
+  color: #282a2c;
+  cursor: pointer;
+}
+
+.new1 {
+  border-top: 1px solid #28333d;
+  margin: 2rem auto;
+  width: 90%;
+}
+
+#information_title {
+  color: #8ea2b4;
+  display: inline-block;
+}
+
+.info_ul {
+  margin-top: 1rem;
+  width: 40rem;
+}
+
+footer {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 720px) {
+  .heading__title {
+    font-size: 9rem;
+
+    margin: 5rem auto;
+  }
+  header {
+    width: 62rem;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+  .nav__container {
+    display: inline;
+  }
+  .nav__list {
+    width: 62rem;
+  }
+  .info_ul {
+    margin-top: 1rem;
+    width: 62rem;
+  }
+
+  .aside-two {
+    width: 62rem;
+    font-size: 4rem;
+    margin: 1rem auto;
+  }
+
+  .main-content {
+    width: 62rem;
+    font-size: 2rem;
+  }
+}
