@@ -1,0 +1,63 @@
+body {
+  font-size: 20px;
+  margin: 15px;
+}
+h1 {
+  font-size: 25px;
+}
+h2 {
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+figure {
+  margin: 0 0 50px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+@media screen and (min-width: 756px) {
+  body {
+    background-color: rgb(231, 67, 67);
+    font-size: 25px;
+    margin: 15px 50px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  figure {
+    float: left;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  body {
+    background-color: #fff;
+    font-size: 30px;
+    margin: 110px auto;
+    max-width: 1300px;
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+  section {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  figure {
+    float: left;
+    width: 25%;
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+}
