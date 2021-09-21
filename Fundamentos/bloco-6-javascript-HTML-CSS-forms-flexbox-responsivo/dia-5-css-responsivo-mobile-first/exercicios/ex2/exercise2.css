@@ -177,6 +177,7 @@ header {
 footer {
   font-size: 1.5rem;
   padding: 2rem;
+  text-align: center;
 }
 
 @media screen and (min-width: 720px) {
@@ -209,6 +210,57 @@ footer {
 
   .main-content {
     width: 62rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    width: 94rem;
+    margin: 0 auto;
+  }
+
+  .nav__list {
+    width: 94rem;
+  }
+  .info_ul {
+    margin-top: 1rem;
+    width: 94rem;
+  }
+
+  .aside-two {
+    width: 94rem;
+    margin: 1rem auto;
+  }
+
+  .main-content {
+    width: 94rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  header {
+    width: 120rem;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+
+  .nav__list {
+    width: 120rem;
+  }
+  .info_ul {
+    margin-top: 1rem;
+    width: 120rem;
+  }
+
+  .aside-two {
+    width: 120rem;
+    font-size: 4rem;
+    margin: 1rem auto;
+  }
+
+  .main-content {
+    width: 120rem;
     font-size: 2rem;
   }
 }
