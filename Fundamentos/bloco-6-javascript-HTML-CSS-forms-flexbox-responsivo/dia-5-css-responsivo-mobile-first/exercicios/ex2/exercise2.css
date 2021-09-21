@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Old London";
+  src: url(./fonts/OldLondon.ttf);
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(./fonts/Rubik-Regular.ttf);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #b7c4cf, #8ea2b4);
+}
+
+header {
+  width: 40rem;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.heading__title {
+  font-family: "Old London";
+  font-size: 7rem;
+  text-align: center;
+  color: #5f5f9c;
+  margin: 5rem auto;
+}
+
+.nav__container {
+  font-family: "Rubik";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #c1ccd6;
+  display: none;
+}
+
+.nav__list {
+  list-style: none;
+  width: 40rem;
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 0;
+  margin: 0 auto;
+}
+
+.chapters__content {
+  width: 70%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(142, 174, 255, 0.425);
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  font-size: 2rem;
+  font-family: "Rubik";
+  color: whitesmoke;
+}
+
+.chapters__content li {
+  padding-top: 2rem;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.hidden {
+  display: none;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+#btn_chapters {
+  position: fixed;
+  font-size: 3rem;
+  top: 2rem;
+  right: 1rem;
+}
+
+#btn_chapters:hover {
+  background-color: rgba(101, 153, 166, 0.486);
+  border-radius: 3px;
+}
+
+.aside-two {
+  width: 40rem;
+  font-size: 2rem;
+  margin: 1rem auto;
+  font-family: "Rubik";
+}
+
+.main-content {
+  width: 40rem;
+  font-size: 2rem;
+  margin: 1rem auto;
+  letter-spacing: 1px;
+  font-family: "Rubik";
+  text-align: justify;
+  line-height: 3rem;
+}
+
+.main-content p {
+  margin-bottom: 3rem;
+}
+
+.head_text {
+  line-height: 4rem;
+}
