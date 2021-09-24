@@ -3,10 +3,10 @@
 ## 📚Bloco 7 - Introdução à JS ES6 e Testes Unitários
 ### 🗓️ 3 aulas - 23.09, 24.09 e 27.09 de 2021
 ### 🗓️ 1 Projeto - 28.09 de 2021
-- [x] 📖 Aula 7.1 (32) - HTML & CSS. 15.09 - Quarta-Feira
-- [ ] 📖 Aula 7.2 (33)- Bibliotecas JavaScript e Frameworks CSS. 16.09 - quinta-Feira
-- [ ] 📖 Aula 7.3 (34) - Introdução - CSS Flexbox. 17.09 - Sexta-Feira
-- [ ] 📖 Projeto JavaScript Testes Unitários  (35)-  14.09 - Quarta-Feira
+- [x] 📖 Aula 7.1 (32) - JS ES6 - arrow functions, template literals e operadores ternários. 23.09 - Quarta-Feira
+- [ ] 📖 Aula 7.2 (33)- JS ES6 objects. 24.09 - quinta-Feira
+- [ ] 📖 Aula 7.3 (34) - Primeiros Passos em Jest. 27.09 - Sexta-Feira
+- [ ] 📖 Projeto JavaScript Testes Unitários  (35)-  27.09 - Quarta-Feira
 
 ### 📋 Fundamentos do Desenvolvimento Web
 - BLOCO 1 - UNIX & BASH  ✅
