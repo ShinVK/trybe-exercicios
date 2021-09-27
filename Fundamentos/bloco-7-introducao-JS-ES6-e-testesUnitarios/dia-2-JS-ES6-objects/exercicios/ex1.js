@@ -114,6 +114,7 @@ const totalConta = () => {
 
 const orderModifier = (order) => {
   // Adicione abaixo as informações necessárias.
+  order.name = "Luiz Silva";
   const str = `Olá ${
     order.name
   }, o total do seu pedido de ${pedidosPizzasEBeb()} é R$${totalConta()}`;
