@@ -4,10 +4,10 @@
 ### 🗓️ 3 aulas - 23.09, 24.09 e 27.09 de 2021
 ### 🗓️ 1 Projeto - 28.09 de 2021
 - [x] 📖 Aula 7.1 (32) - JS ES6 - arrow functions, template literals e operadores ternários. 23.09 - Quinta-Feira
-- [x] 📖 Aula (32) - Aula 7.2 cancelada, por problemas para acessar plataforma. Dinamica em grupo 24.09 - sexta-feira
-- [ ] 📖 Aula 7.2 (33)- JS ES6 objects. 27.09 - Segunda-Feira
-- [ ] 📖 Aula 7.3 (34) - Primeiros Passos em Jest. 28.09 - Terça-Feira
-- [ ] 📖 Projeto JavaScript Testes Unitários  (35)-  29.09 - Quarta-Feira
+- [x] 📖 Aula (33) - Aula 7.2 cancelada, por problemas para acessar plataforma. Dinamica em grupo 24.09 - sexta-feira
+- [ ] 📖 Aula 7.2 (34)- JS ES6 objects. 27.09 - Segunda-Feira
+- [ ] 📖 Aula 7.3 (35) - Primeiros Passos em Jest. 28.09 - Terça-Feira
+- [ ] 📖 Projeto JavaScript Testes Unitários  (36)-  29.09 - Quarta-Feira
 
 ### 📋 Fundamentos do Desenvolvimento Web
 - BLOCO 1 - UNIX & BASH  ✅
