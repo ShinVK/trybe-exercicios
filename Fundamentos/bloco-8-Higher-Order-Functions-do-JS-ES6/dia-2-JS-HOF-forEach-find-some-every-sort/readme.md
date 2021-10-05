@@ -32,3 +32,5 @@
 
 1. Exercício com todas as funções aprendidas em aula. Tema do exercício: livros
    1.1 - find - encontrar a primeira pessoa nascida em 1947
+   1.2 - forEach - retorne o livro de menor nome
+   1.3 - Find - encontrar o primeiro livro cujo nome possui 26 caracteres
