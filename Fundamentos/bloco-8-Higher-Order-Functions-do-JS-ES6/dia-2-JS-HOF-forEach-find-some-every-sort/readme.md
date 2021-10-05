@@ -34,3 +34,5 @@
    1.1 - find - encontrar a primeira pessoa nascida em 1947
    1.2 - forEach - retorne o livro de menor nome
    1.3 - Find - encontrar o primeiro livro cujo nome possui 26 caracteres
+   1.4 - Sort - ordenar os livros por ano de lançamento
+   1.5 - Every - retorne true se todas pessoas nasceram no século XX
