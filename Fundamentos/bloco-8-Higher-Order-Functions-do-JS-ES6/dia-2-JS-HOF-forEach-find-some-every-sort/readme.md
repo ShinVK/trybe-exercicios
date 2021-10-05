@@ -37,3 +37,4 @@
    1.4 - Sort - ordenar os livros por ano de lançamento
    1.5 - Every - retorne true se todas pessoas nasceram no século XX
    1.6 - Some - Faça uma função que retorne true , se algum livro foi lançado na década de 80, e false , caso contrário.
+   1.7 - Some, every - Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
