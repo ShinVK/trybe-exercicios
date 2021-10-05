@@ -28,3 +28,15 @@ const findDivisibleBy3And52 = numbers2.find(
 
 console.log(findDivisibleBy3And52);
 console.log(numbers2.find(findDivisibleBy3And5));
+
+// proximo exercicios
+const names = ['João', 'Irene', 'Fernando', 'Maria'];
+
+const findNameWithFiveLetters = (namae) => {
+  // Adicione seu código aqui:
+  return namae.length === 5;
+};
+
+const test = names.find(findNameWithFiveLetters);
+
+console.log(test);
