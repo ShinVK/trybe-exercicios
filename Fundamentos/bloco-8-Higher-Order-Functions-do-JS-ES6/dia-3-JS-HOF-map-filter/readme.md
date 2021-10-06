@@ -23,10 +23,10 @@
 #### Exercícios depois da Aula ao Vivo
 
 1. Exercício com todas as funções aprendidas em aula. Tema do exercício: livros
-   1.1 - find - encontrar a primeira pessoa nascida em 1947
-   1.2 - forEach - retorne o livro de menor nome
-   1.3 - Find - encontrar o primeiro livro cujo nome possui 26 caracteres
-   1.4 - Sort - ordenar os livros por ano de lançamento
-   1.5 - Every - retorne true se todas pessoas nasceram no século XX
-   1.6 - Some - Faça uma função que retorne true , se algum livro foi lançado na década de 80, e false , caso contrário.
-   1.7 - Some, every - Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
+   1.1 - MAP - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
+   1.2 - Map, Sort - Construa um array de objetos a partir do array de livros. Cada objeto deve conter uma propriedade author , com o nome da pessoa autora do livro, e uma propriedade age com a idade dessa pessoa quando o livro foi lançado. O array deve ser ordenado por idade, ou seja, da pessoa mais jovem para a mais velha considerando suas idades quando o livro foi lançado.
+   1.3 - Filter- Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.
+   1.4 - Filter e sort - Crie um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho.
+   1.5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
+   1.6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
+   1.7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
