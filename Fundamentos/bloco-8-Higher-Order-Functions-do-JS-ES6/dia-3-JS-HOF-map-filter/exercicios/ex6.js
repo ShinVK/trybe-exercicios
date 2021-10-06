@@ -62,3 +62,19 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+// Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
+
+const expectedResult = [
+  'O Senhor dos Anéis',
+  'Fundação',
+  'O Chamado de Cthulhu',
+];
+
+function oldBooks() {
+  // escreva seu código aqui
+  const oldBooksObj = books.filter((book) => book.releaseYear < 2021 - 60);
+  const oldBooksNames = oldBooksObj.map((book) => book.name);
+  return oldBooksNames;
+}
+
+console.log(oldBooks());
