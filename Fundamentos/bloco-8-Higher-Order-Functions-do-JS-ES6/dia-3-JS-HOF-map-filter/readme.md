@@ -16,11 +16,7 @@
 
 1. Map: Unir duas arrays (produto e preço) em uma lista de objetos
 
-2. Exercicios utilizando o find
-   2.1 - Retorne o primeiro item par (%2 ===0)
-   2.2 - Retorne o primeiro item divisivel por 3 e 5
-   2.3 - Retorne o primeiro nome com 5 letras
-   2.4 - Retorne o item com o ID correspondente
+2. Utilizar primeiro o método for e depois refatorar utilizando o map. imprimir o nome completo de todos os estudantes que estudam no turno da manhã.
 
 3. Exercicios utilizando o Some e Every
    3.1 - retorne true se ele estiver contido e caso contrário, retorne false , use some ;
