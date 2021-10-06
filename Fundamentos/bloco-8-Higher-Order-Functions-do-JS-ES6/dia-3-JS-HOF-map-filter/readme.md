@@ -1,32 +1,34 @@
 <img src="https://user-images.githubusercontent.com/87394535/129942939-007fc304-2ac0-431d-b018-685951e5750f.png" alt="drawing" width="300"/>
 
-## 📚 Aula 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+## 📚 Aula 8.3 - JavaScript ES6 - Higher Order Functions - Map e Filter
 
 ## Bloco 8 - Higher Order Functions do JavaScript ES6
 
-#### 🗓️ Terça-feira, 05 de outubro de 2021
+#### 🗓️ Quarta-feira, 06 de outubro de 2021
 
-### 📖 Aula 38
+### 📖 Aula 39
 
 ### 📓 Exercícios
 
-#### Exercícios em JEST
+#### Exercícios Antes da Aula ao Vivo
 
-1.  Utilizando do método forEach aprendido em aula, fazer uma função que retorne todos emails do array em um cl;
+    Utilizando de Map e Filter resolver os exercícios
 
-2.  Exercicios utilizando o find
-    2.1 - Retorne o primeiro item par (%2 ===0)
-    2.2 - Retorne o primeiro item divisivel por 3 e 5
-    2.3 - Retorne o primeiro nome com 5 letras
-    2.4 - Retorne o item com o ID correspondente
+1. Map: Unir duas arrays (produto e preço) em uma lista de objetos
 
-3.  Exercicios utilizando o Some e Every
-    3.1 - retorne true se ele estiver contido e caso contrário, retorne false , use some ;
-    3.2 - Escreva uma função que dado um array de pessoas e uma idade mínima retorne true se todas tiverem a idade maior ou igual a mínima e caso contrário false , use every ;
+2. Exercicios utilizando o find
+   2.1 - Retorne o primeiro item par (%2 ===0)
+   2.2 - Retorne o primeiro item divisivel por 3 e 5
+   2.3 - Retorne o primeiro nome com 5 letras
+   2.4 - Retorne o item com o ID correspondente
 
-4.  Exercicios utilizando o método Sort
-    4.1 - Utilize a sort para ordenar o array pela idade das pessoas em ordem crescente .
-    4.2 - Modifique o sort do exercício anterior para que ordene o array pela idade das pessoas em ordem decrescente .
+3. Exercicios utilizando o Some e Every
+   3.1 - retorne true se ele estiver contido e caso contrário, retorne false , use some ;
+   3.2 - Escreva uma função que dado um array de pessoas e uma idade mínima retorne true se todas tiverem a idade maior ou igual a mínima e caso contrário false , use every ;
+
+4. Exercicios utilizando o método Sort
+   4.1 - Utilize a sort para ordenar o array pela idade das pessoas em ordem crescente .
+   4.2 - Modifique o sort do exercício anterior para que ordene o array pela idade das pessoas em ordem decrescente .
 
 #### Exercícios depois da Aula ao Vivo
 
