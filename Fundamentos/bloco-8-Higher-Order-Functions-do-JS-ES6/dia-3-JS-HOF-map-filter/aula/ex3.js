@@ -73,38 +73,14 @@ const estudantes = [
   },
 ];
 
-//  imprimir o nome completo de todos os estudantes que estudam no turno da manhã.
+// Buscar um estudante pelo nome e retornar a situação dele em cada matéria:
+function materiaAluno(nomeDoAluno) {
+  const findStudent = estudantes.find((estudante) => {
+    return estudante.nome === nomeDoAluno;
+  });
+  return findStudent.materias.map((materia) => {
+    return `${materia.name}: ${materia.nota >= 60 ? 'Aprovado' : 'Reprovado'}`;
+  });
+}
 
-// com for in tradicional sem HOF
-
-// const arrayStudentsMorning = [];
-// for (let i in estudantes) {
-//   if (estudantes[i].turno === 'Manhã') {
-//     arrayStudentsMorning.push(
-//       `${estudantes[i].nome} ${estudantes[i].sobrenome}`
-//     );
-//   }
-// }
-// console.log(arrayStudentsMorning);
-// retorno [
-//   'Jorge Silva',
-//   'Jorge Santos',
-//   'Maria Silveira',
-//   'Natalia Castro',
-//   'Wilson Martins'
-// ]
-
-// com HOF
-
-const studentsMorning = estudantes
-  .filter((estudante) => estudante.turno === 'Manhã')
-  .map((estudante) => `${estudante.nome} ${estudante.sobrenome}`);
-console.log(studentsMorning);
-
-const studentsMorning2 = estudantes.filter(
-  (estudante) => estudante.turno === 'Manhã'
-);
-
-console.log(studentsMorning2);
-// - nesse caso retorna os objetos que estudam de manhã
-// primeiro filter é para filtrar os estudantes que estudam pela manhã, e o map é para adiciona-los ao studentsMorning.
+console.log(materiaAluno('Wilson'));

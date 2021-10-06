@@ -16,15 +16,9 @@
 
 1. Map: Unir duas arrays (produto e preço) em uma lista de objetos
 
-2. Utilizar primeiro o método for e depois refatorar utilizando o map. imprimir o nome completo de todos os estudantes que estudam no turno da manhã.
+2. Utilizar primeiro o método for e depois refatorar utilizando o map e filter. imprimir o nome completo de todos os estudantes que estudam no turno da manhã.
 
-3. Exercicios utilizando o Some e Every
-   3.1 - retorne true se ele estiver contido e caso contrário, retorne false , use some ;
-   3.2 - Escreva uma função que dado um array de pessoas e uma idade mínima retorne true se todas tiverem a idade maior ou igual a mínima e caso contrário false , use every ;
-
-4. Exercicios utilizando o método Sort
-   4.1 - Utilize a sort para ordenar o array pela idade das pessoas em ordem crescente .
-   4.2 - Modifique o sort do exercício anterior para que ordene o array pela idade das pessoas em ordem decrescente .
+3. Utilizar primeiro o método for e depois reaftorar utilizando map e find. Buscar um estudante pelo nome e retornar a situação dele em cada matéria.
 
 #### Exercícios depois da Aula ao Vivo
 
