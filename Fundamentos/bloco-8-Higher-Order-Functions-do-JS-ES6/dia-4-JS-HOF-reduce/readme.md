@@ -23,8 +23,8 @@
 
 #### Exercícios depois da Aula ao Vivo
 
-Exercício com todas as funções aprendidas em aula. Tema do exercício: livros - FOCO em REDUCE
-
 1. Dada uma matriz, transforme em um array.
 
-2.
+Exercícios com foco em REDUCE.Tema do exercício: livros
+
+2. Crie uma string com os nomes de todas as pessoas autoras.
