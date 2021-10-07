@@ -12,9 +12,9 @@
 
 #### Exercícios Antes da Aula ao Vivo
 
-    Utilizando de Map e Filter resolver os exercícios
+    Utilizando Reduce para resolver os exercícios
 
-1. Map: Unir duas arrays (produto e preço) em uma lista de objetos
+1. Retornar o maior valor utilizando o for;
 
 2. Utilizar primeiro o método for e depois refatorar utilizando o map e filter. imprimir o nome completo de todos os estudantes que estudam no turno da manhã.
 
