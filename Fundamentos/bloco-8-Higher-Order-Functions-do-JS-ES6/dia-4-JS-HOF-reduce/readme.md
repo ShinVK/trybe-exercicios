@@ -18,7 +18,8 @@
 
 2. faça uma função que some todos os números pares do array:
 
-3. Utilizar primeiro o método for e depois reaftorar utilizando map e find. Buscar um estudante pelo nome e retornar a situação dele em cada matéria.
+3. Map e reduce - Utilizando o array estudante do dia anterior, retorne a matéria que cada aluno foi melhor
+   Obs. No exercicio 3 acabei utilizando um find em conjunto com reduce, diferente da resolução do site;
 
 #### Exercícios depois da Aula ao Vivo
 
