@@ -16,7 +16,7 @@
 
 1. Retornar o maior valor utilizando o for;
 
-2. Utilizar primeiro o método for e depois refatorar utilizando o map e filter. imprimir o nome completo de todos os estudantes que estudam no turno da manhã.
+2. faça uma função que some todos os números pares do array:
 
 3. Utilizar primeiro o método for e depois reaftorar utilizando map e find. Buscar um estudante pelo nome e retornar a situação dele em cada matéria.
 
