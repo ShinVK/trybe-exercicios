@@ -61,4 +61,38 @@ const books = [
   },
 ];
 
+// 4 - Encontre o livro com o maior nome
 // Adicione o código do exercício aqui:
+
+const expectedResult = {
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  genre: 'Fantasia',
+  author: {
+    name: 'George R. R. Martin',
+    birthYear: 1948,
+  },
+  releaseYear: 1991,
+};
+
+function longestNamedBook() {
+  // escreva seu código aqui
+  const bookLength = books.reduce(
+    (longest, book) =>
+      longest > book.name.length ? longest : book.name.length,
+    0
+  );
+
+  return books.find((book) => book.name.length === bookLength);
+}
+
+console.log(longestNamedBook());
+
+// SEGUNDA FORMA
+function longestNamedBook2() {
+  // escreva seu código aqui
+  return books.reduce((longest, book) =>
+    longest.name.length > book.name.length ? longest : book
+  );
+}
+console.log(longestNamedBook2());

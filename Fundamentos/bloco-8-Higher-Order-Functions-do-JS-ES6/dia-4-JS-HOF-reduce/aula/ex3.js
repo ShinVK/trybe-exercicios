@@ -92,6 +92,14 @@ const melhorMateriaDeCadaUm = estudantes.map((estudante) => {
   return { Name: `${estudante.nome}`, Materia: `${materiaName}` };
 });
 
+const melhorMateriaDeCadaUm2 = estudantes.map((estudante) => {
+  const melhorMateria = estudante.materias.reduce((bestMat, mat) =>
+    bestMat.nota > mat.nota ? bestMat : mat
+  );
+
+  return { Name: `${estudante.nome}`, Materia: `${melhorMateria.name}` };
+});
+
 // const teste = estudantes[0].materias.reduce((bestMat, mat) =>
 //   bestMat > mat.nota ? bestMat : mat.nota
 // );
@@ -102,4 +110,5 @@ const melhorMateriaDeCadaUm = estudantes.map((estudante) => {
 // console.log(teste);
 // console.log(materiaName);
 
-console.log(melhorMateriaDeCadaUm);
+// console.log(melhorMateriaDeCadaUm);
+console.log(melhorMateriaDeCadaUm2);
