@@ -1,9 +1,10 @@
 // some todos número pares do array
 
-const numbers = [18, 19, 23, 53, 4, 5, 76, 23, 54];
+const numbers = [3, 18, 19, 23, 53, 4, 5, 76, 23, 54];
 
-const sumEvenNumbers = numbers.reduce((acc, number) =>
-  number % 2 === 0 ? acc + number : acc + 0
+const sumEvenNumbers = numbers.reduce(
+  (acc, number) => (number % 2 === 0 ? acc + number : acc + 0),
+  0
 );
 
 console.log(sumEvenNumbers);

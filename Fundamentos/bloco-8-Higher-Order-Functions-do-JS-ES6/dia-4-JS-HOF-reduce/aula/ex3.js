@@ -81,8 +81,9 @@ const estudantes = [
 
 // map com reduce como argumento;
 const melhorMateriaDeCadaUm = estudantes.map((estudante) => {
-  const melhorMateria = estudante.materias.reduce((bestMat, mat) =>
-    bestMat > mat.nota ? bestMat : mat.nota
+  const melhorMateria = estudante.materias.reduce(
+    (bestMat, mat) => (bestMat > mat.nota ? bestMat : mat.nota),
+    0
   );
   const materiaName = estudante.materias.find(
     (materia) => materia.nota === melhorMateria
