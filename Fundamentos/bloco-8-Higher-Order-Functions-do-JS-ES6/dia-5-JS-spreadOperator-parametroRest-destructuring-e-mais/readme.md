@@ -14,9 +14,10 @@
 
     Utilizando spread, rest, destructuring e outros para resolver os exercícios
 
-1. Para fixar e praticar, vamos fazer uma salada de frutas com itens adicionais que você desejar. Faça uma função chamada fruitSalad passando como parâmetro specialFruit e additionalItens , faça a função retornar uma lista única contendo todos os itens da nossa salada de frutas usando o spread .
+1. Spread - Para fixar e praticar, vamos fazer uma salada de frutas com itens adicionais que você desejar. Faça uma função chamada fruitSalad passando como parâmetro specialFruit e additionalItens , faça a função retornar uma lista única contendo todos os itens da nossa salada de frutas.
 
-2. faça uma função que some todos os números pares do array:
+2. Object destructuring and array destructuring
+   2.1 - Produza o mesmo resultado do código, porém utilizando o array destructuring para recolher a função e a saudaçã
 
 3. Map e reduce - Utilizando o array estudante do dia anterior, retorne a matéria que cada aluno foi melhor
    Obs. No exercicio 3 acabei utilizando um find em conjunto com reduce, diferente da resolução do site;
