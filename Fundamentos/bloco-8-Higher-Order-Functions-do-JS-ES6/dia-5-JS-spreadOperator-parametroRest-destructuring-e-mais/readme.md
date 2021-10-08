@@ -17,7 +17,8 @@
 1. Spread - Para fixar e praticar, vamos fazer uma salada de frutas com itens adicionais que você desejar. Faça uma função chamada fruitSalad passando como parâmetro specialFruit e additionalItens , faça a função retornar uma lista única contendo todos os itens da nossa salada de frutas.
 
 2. Object destructuring and array destructuring
-   2.1 - Produza o mesmo resultado do código, porém utilizando o array destructuring para recolher a função e a saudaçã
+   2.1 - Produza o mesmo resultado do código, porém utilizando o array destructuring para recolher a função e a saudação
+   2.2 - A seguir, temos alguns valores que estão descritos em variáveis incoerentes. Através da desestruturação de arrays, corrija os valores das variáveis.
 
 3. Map e reduce - Utilizando o array estudante do dia anterior, retorne a matéria que cada aluno foi melhor
    Obs. No exercicio 3 acabei utilizando um find em conjunto com reduce, diferente da resolução do site;
