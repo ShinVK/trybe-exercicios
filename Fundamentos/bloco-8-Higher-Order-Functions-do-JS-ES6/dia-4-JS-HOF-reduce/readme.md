@@ -1,12 +1,12 @@
 <img src="https://user-images.githubusercontent.com/87394535/129942939-007fc304-2ac0-431d-b018-685951e5750f.png" alt="drawing" width="300"/>
 
-## 📚 Aula 8.3 - JavaScript ES6 - Higher Order Functions - Map e Filter
+## 📚 Aula 8.4 - JavaScript ES6 - Higher Order Functions - Reduce
 
 ## Bloco 8 - Higher Order Functions do JavaScript ES6
 
-#### 🗓️ Quarta-feira, 06 de outubro de 2021
+#### 🗓️ Quinta-feira, 07 de outubro de 2021
 
-### 📖 Aula 39
+### 📖 Aula 40
 
 ### 📓 Exercícios
 
