@@ -19,6 +19,7 @@
 2. Object destructuring and array destructuring
    2.1 - Produza o mesmo resultado do código, porém utilizando o array destructuring para recolher a função e a saudação
    2.2 - A seguir, temos alguns valores que estão descritos em variáveis incoerentes. Através da desestruturação de arrays, corrija os valores das variáveis.
+   2.3 - Array abaixo possui alguns números que não condizem com o conteúdo que ele deveria possuir. Através de array destructuring, faça com que existam apenas números pares na variável numerosPares .
 
 3. Map e reduce - Utilizando o array estudante do dia anterior, retorne a matéria que cada aluno foi melhor
    Obs. No exercicio 3 acabei utilizando um find em conjunto com reduce, diferente da resolução do site;
