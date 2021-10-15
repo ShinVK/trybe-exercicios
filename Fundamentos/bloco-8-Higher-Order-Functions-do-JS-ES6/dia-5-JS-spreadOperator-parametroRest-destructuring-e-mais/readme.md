@@ -30,14 +30,16 @@
 
 1. Spread Operator - Dado o código abaixo, complete-o de forma que seja impressa a área dos 3 retângulos. O código deve retornar em sequência 2 , 15 e 54 .
 
-Exercícios com foco em REDUCE.Tema do exercício: livros
+2. Rest - Crie uma função sum que dado um número variável de elementos retorna a soma desses elementos.
 
-2. Crie uma string com os nomes de todas as pessoas autoras.
+3. Destructuring - Escreva a função personLikes , que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa
 
-3. Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
+4. Destructuring - Escreva uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20:
 
-4. Encontre o livro com o maior nome
+5. Destructuring - Escreva a função swap , que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados. Detalhe: você precisa fazer essa função gastando 1 linha só
 
-5. Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
+6. Destructuring - Suponha que você esteja lidando com carros e, da forma como o problema lhe foi entregue, cada carro é modelado como um array. Porém, essa modelagem está baixo nível. Cria uma função toObject que, dada uma lista, retorna um objeto representando o carro
 
-6. Agora vamos criar um novo array de objetos a partir das informações abaixo, onde cada objeto terá o formato { name: nome do aluno, average: media das notas } . Para isso vamos assumir que a posição 0 de notas refere-se ao aluno na posição 0 de alunos , aqui além de reduce será necessário utilizar também a função map . Dica: Você pode acessar o index do array dentro de map , e você pode ver o objeto esperado na constante expected .
+7. Destructuring - Escreva uma função shipLength que, dado um objeto representando um navio, retorna o comprimento dele, mostrando também a devida unidade de comprimento
+
+8. Default Parameters - Escreva uma função greet que, dado o nome de uma pessoa, retorna uma mensagem de cumprimento
