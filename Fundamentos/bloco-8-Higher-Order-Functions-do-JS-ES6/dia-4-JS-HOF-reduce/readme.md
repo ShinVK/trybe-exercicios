@@ -13,6 +13,7 @@
 #### Exercícios Antes da Aula ao Vivo
 
     Utilizando Reduce para resolver os exercícios
+    
 
 1. Retornar o maior valor utilizando o for;
 
