@@ -2,14 +2,15 @@
 
 ## 📚 Bloco 9 - JavaScript e Testes Assíncronos
 ### 🗓️ 3 aulas - 15.10, 18.10 e 19.10 de 2021
-### 🗓️ 1 Projeto (2 dias) - 20 e 22.10 de 2021
+### 🗓️ 2 Projetos (1 projeto 2 dias) (2º 1 dia) - 20, 22 e 25.10 de 2021
 ### 🗓️ Aula ao Vivo - Casa de Câmbio - 21.10 de 2021
 
 - [x] 📖 Aula 9.1 (44) - JavaScript Assíncrono e Callbacks 15.10 - Sexta-Feira
 - [ ] 📖 Aula 9.2(45) - JavaScript Assíncrono 16.10 - Segunda-Feira
 - [ ] 📖 Aula 9.3 (46)- JEST - testes assíncronos 17.10 - Terça-Feira
-- [ ] 📖 Projeto 8 Carrinho de Compras -2 dias (47 e 49)-  20.10 - Quarta-Feira e 22.10 - Sexta-feira
-- [ ] 📖 Aula ao Vivo - Casa de Câmbio (48)-  21.10 - Quinta-Feira
+- [ ] 📖 9.4 e 9.6 Projeto 8 Carrinho de Compras -2 dias (47 e 49) -  20.10 - Quarta-Feira e 22.10 - Sexta-feira
+- [ ] 📖 Aula 9.5 (48) - Casa de Câmbio -  21.10 - Quinta-Feira
+- [ ] 📖 9.7 (49) - Projeto 9 - Jes Assíncrono e Mocking-  25.10 - Quinta-Feira
 
 ### 📋 Fundamentos do Desenvolvimento Web
 - BLOCO 1 - UNIX & BASH  ✅
