@@ -8,7 +8,7 @@
 - [x] 📖 Aula 8.3 (39)- JavaScript ES6 - Higher Order Functions - map e filter. 06.10 - Quarta-Feira
 - [x] 📖 Aula 8.4 (40) - JavaScript ES6 - Higher Order Functions - reduce. 07.10 - Quinta-Feira
 - [x] 📖 Aula 8.5 (41) - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais. 08.10 - Sexta-Feira
-- [x] 📖 Projeto 7 JavaScript Testes Unitários  (42)-  11.10 - Segunda-Feira
+- [x] 📖 Projeto 7 JavaScript Testes Unitários - 2 dias (42 e 43)-  13 e 14.10 - Quarta e Quinta feira
 
 ### 📋 Fundamentos do Desenvolvimento Web
 - BLOCO 1 - UNIX & BASH  ✅
