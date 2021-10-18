@@ -12,10 +12,16 @@
 
 #### Exercícios Antes da Aula ao Vivo
 
-    Utilizando spread, rest, destructuring e outros para resolver os exercícios
-
-1. 
+1. Foram questões teóricas relacionadas à Fetch API e promisse;
 
 #### Exercícios depois da Aula ao Vivo
 
-1. 
+1. - Fetch: criar um site simples gerador de piadas ruins!
+1.1. - Fazer uma requisição via browser. 
+1.2. - Requisição via terminal.
+1.3. - Requisição via terminal ustilizando Accept: text/plain.
+1.4. - Requisição via terminal, formato: JSON (application/json)
+1.5. - Fazer requisição no JS, via Fetch, como especificação method: GET e headers: application/json
+1.6. - Testar o response da promisse com then, utilizando console log
+1.7. - Converter o conteúdo do body da Response que retorna outra promisse. Método: json();
+1.8. - Faça a piada aparecer no DOM da página.
