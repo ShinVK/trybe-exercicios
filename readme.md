@@ -109,8 +109,8 @@ Esse curso foi iniciado em 9 de agosto de 2021, sendo programado para acabar um 
 </details>
 
 <details>
-<summary>📚 BLOCO 9 - JavaScript e Testes Assíncronos ✅/summary>
-- 
+<summary>📚 BLOCO 9 - JavaScript e Testes Assíncronos ✅</summary>
+
 - [x] 📖 Aula 9.1 (44) - JavaScript Assíncrono e Callbacks 15.10 - Sexta-Feira
 - [x] 📖 Aula 9.2(45) - JavaScript Assíncrono 16.10 - Segunda-Feira
 - [x] 📖 Aula 9.3 (46)- JEST - testes assíncronos 17.10 - Terça-Feira
