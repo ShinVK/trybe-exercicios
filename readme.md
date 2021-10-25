@@ -14,15 +14,19 @@ Esse curso foi iniciado em 9 de agosto de 2021, sendo programado para acabar um 
 ### BLOCOS E AULAS
 ### FUNDAMENTOS
 <details>
-<summary> BLOCOS 1</summary>
+<summary> BLOCOS</summary>
 
   <details>
+  <summary> BLOCO 1 </summary>
+
 - 📚 BLOCO 1 - UNIX & BASH  ✅
+
 - [X] 📖 Aula 1 e 2 Foram Welcome Days;
 - [X] 📖 Aula 1.3 (3)- Fundamentos do Desenvolvimento WEB 11.08 - Quarta-Feira
 - [X] 📖 Aula 1.3 (3)- Introdução Unix & Shell 11.08 - Quarta-Feira
 - [X] 📖 Aula 1.3 (3)- Unix & Bash - Parte 1 11.08 - Quarta-Feira
 - [X] 📖 Aula 1.4  (4)- Unix & Bash - Parte 2 12.08 - Quinta-Feira
+
   </details>
  
 - 📚 BLOCO 2 - Git, GitHub e Internet ✅
