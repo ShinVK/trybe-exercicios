@@ -1,0 +1,15 @@
+{
+  "name": "dia-2-js-assincronos-fetchAPI-e-async-await",
+  "version": "1.0.0",
+  "description": "<img src=\"https://user-images.githubusercontent.com/87394535/129942939-007fc304-2ac0-431d-b018-685951e5750f.png\" alt=\"drawing\" width=\"300\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.5"
+  }
+}
