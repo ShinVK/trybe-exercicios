@@ -23,3 +23,7 @@
 2. Função retornando html - <h1> Hello world </h1>
 
 #### Exercícios depois da Aula ao Vivo
+
+1. Map com React
+
+2.
