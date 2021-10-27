@@ -1,19 +1,25 @@
 <img src="https://user-images.githubusercontent.com/87394535/129942939-007fc304-2ac0-431d-b018-685951e5750f.png" alt="drawing" width="300"/>
 
 ## 📚 Bloco 9 - JavaScript e Testes Assíncronos
+
 ### 🗓️ 3 aulas - 15.10, 18.10 e 19.10 de 2021
+
 ### 🗓️ 2 Projetos (1 projeto 2 dias) (2º 1 dia) - 20, 22 e 25.10 de 2021
+
 ### 🗓️ Aula ao Vivo - Casa de Câmbio - 21.10 de 2021
+
+### 🗓️ Aula Auxiliar Projeto - 26.10 de 2021
 
 - [x] 📖 Aula 9.1 (44) - JavaScript Assíncrono e Callbacks 15.10 - Sexta-Feira
 - [x] 📖 Aula 9.2(45) - JavaScript Assíncrono 16.10 - Segunda-Feira
 - [x] 📖 Aula 9.3 (46)- JEST - testes assíncronos 17.10 - Terça-Feira
-- [x] 📖 Aulas 9.4, 9.6 e 9.7 (47,49 e 50)  Projeto 8 Carrinho de Compras -2 dias  -  20.10 - Quarta-Feira e 22.10 - Sexta-feira
-- [x] 📖 Aula 9.5 (48) - Casa de Câmbio -  21.10 - Quinta-Feira
-
+- [x] 📖 Aulas 9.4, 9.6 e 9.7 (47,49 e 50) Projeto 8 Carrinho de Compras -2 dias - 20.10 - Quarta-Feira e 22.10 - Sexta-feira
+- [x] 📖 Aula 9.5 (48) - Casa de Câmbio - 21.10 - Quinta-Feira
+- [x] 📖 Aula 9.6 (51) - Aula auxiliar para o projeto - 26.10 - Terça-Feira
 
 ### 📋 Fundamentos do Desenvolvimento Web
-- BLOCO 1 - UNIX & BASH  ✅
+
+- BLOCO 1 - UNIX & BASH ✅
 - BLOCO 2 - Git, GitHub e Internet ✅
 - BLOCO 3 - Introdução à HTML e CSS ✅
 - BLOCO 4 - Introdução à JavaScript e Lógica de Programação ✅

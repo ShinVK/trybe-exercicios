@@ -2,28 +2,31 @@
 
 ## 📚 TRYBE - EXERCÍCIOS
 
-Este repositório contém os exercícios feitos durante o curso da TRYBE. 
-Em relação a projetos do curso tem outro repositório referente somente à isso. 
+Este repositório contém os exercícios feitos durante o curso da TRYBE.
+Em relação a projetos do curso tem outro repositório referente somente à isso.
 
 ### TRYBE
+
 "A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."
 
 No curso desenvolvemos as principais habilidades necessárias para um programador FullStack, além de contar com suporte para o desenvolvimento individual e coletivo de SoftSkills.
-Esse curso foi iniciado em 9 de agosto de 2021, sendo programado para acabar um ano depois. 
+Esse curso foi iniciado em 9 de agosto de 2021, sendo programado para acabar um ano depois.
 
 ### BLOCOS E AULAS
+
 ### FUNDAMENTOS
+
 <details>
 <summary> BLOCOS</summary>
 
 <details>
 <summary>📚 BLOCO 1 - UNIX & BASH  ✅</summary>
 
-- [X] 📖 Aula 1 e 2 Foram Welcome Days;
-- [X] 📖 Aula 1.3 (3)- Fundamentos do Desenvolvimento WEB 11.08 - Quarta-Feira
-- [X] 📖 Aula 1.3 (3)- Introdução Unix & Shell 11.08 - Quarta-Feira
-- [X] 📖 Aula 1.3 (3)- Unix & Bash - Parte 1 11.08 - Quarta-Feira
-- [X] 📖 Aula 1.4  (4)- Unix & Bash - Parte 2 12.08 - Quinta-Feira
+- [x] 📖 Aula 1 e 2 Foram Welcome Days;
+- [x] 📖 Aula 1.3 (3)- Fundamentos do Desenvolvimento WEB 11.08 - Quarta-Feira
+- [x] 📖 Aula 1.3 (3)- Introdução Unix & Shell 11.08 - Quarta-Feira
+- [x] 📖 Aula 1.3 (3)- Unix & Bash - Parte 1 11.08 - Quarta-Feira
+- [x] 📖 Aula 1.4 (4)- Unix & Bash - Parte 2 12.08 - Quinta-Feira
 
 </details>
 
@@ -40,7 +43,7 @@ Esse curso foi iniciado em 9 de agosto de 2021, sendo programado para acabar um 
 <details>
 <summary>📚 BLOCO 3 - Introdução à HTML e CSS ✅</summary>
 
-- [x] 📖 Aula 3.1 (8)- Introdução - HTML & CSS  18.08 - Quarta-Feira
+- [x] 📖 Aula 3.1 (8)- Introdução - HTML & CSS 18.08 - Quarta-Feira
 - [x] 📖 Aula 3.2 (9)- HTML & CSS - Estruturas de página. 19.08 - Quinta-Feira
 - [x] 📖 Aula 3.3 (10)- HTML & CSS - Primeiros Passos em CSS. 20.08 - Sexta-Feira
 - [x] 📖 Aula 3.4 (11)- HTML & CSS - Seletores e posicionamento. 23.08 - Segunda Feira
@@ -51,7 +54,7 @@ Esse curso foi iniciado em 9 de agosto de 2021, sendo programado para acabar um 
 <details>
 <summary>📚 BLOCO 4 - Introdução à JavaScript e Lógica de Programação ✅</summary>
 
-- [x] 📖 Aula 4.1 (13)-JavaScript - Introdução e primeiros passos  25.08 - Quarta-Feira
+- [x] 📖 Aula 4.1 (13)-JavaScript - Introdução e primeiros passos 25.08 - Quarta-Feira
 - [x] 📖 Aula 4.2 (14)- JavaScript - Array e loop for. 26.08 - Quinta-Feira
 - [x] 📖 Aula 4.3 (15)- JavaScript - Lógica de programação e algoritmos. 27.08 - Sexta-Feira
 - [x] 📖 Aula 4.4 (16)- JavaScript - Objetos e funções. 30.08 - Segunda Feira
@@ -81,7 +84,7 @@ Esse curso foi iniciado em 9 de agosto de 2021, sendo programado para acabar um 
 - [x] 📖 Aula 6.3 (28) - Introdução - CSS Flexbox. 17.09 - Sexta-Feira
 - [x] 📖 Aula 6.4 (29)- CSS - Flexbox 20.09 - Segunda-Feira
 - [x] 📖 Aula 6.5 (30)- CSS Responsivo 21.09 - Terça-Feira
-- [x] 📖 Projeto 5 (31) - Projeto TrybeWarts (trio - André Mello, Felipe Sanches)  -  14.09 - Quarta-Feira
+- [x] 📖 Projeto 5 (31) - Projeto TrybeWarts (trio - André Mello, Felipe Sanches) - 14.09 - Quarta-Feira
 
 </details>
 
@@ -92,7 +95,7 @@ Esse curso foi iniciado em 9 de agosto de 2021, sendo programado para acabar um 
 - [x] 📖 Aula (33) - Aula 7.2 cancelada, por problemas para acessar plataforma. Dinamica em grupo 24.09 - sexta-feira
 - [x] 📖 Aula 7.2 (34)- JS ES6 objects. 27.09 - Segunda-Feira
 - [x] 📖 Aula 7.3 (35) - Primeiros Passos em Jest. 28.09 - Terça-Feira
-- [x] 📖 Projeto 6 (36) - Projeto JavaScript Testes Unitários  -  29.09 - Quarta-Feira
+- [x] 📖 Projeto 6 (36) - Projeto JavaScript Testes Unitários - 29.09 - Quarta-Feira
 
 </details>
 
@@ -104,7 +107,7 @@ Esse curso foi iniciado em 9 de agosto de 2021, sendo programado para acabar um 
 - [x] 📖 Aula 8.3 (39)- JavaScript ES6 - Higher Order Functions - map e filter. 06.10 - Quarta-Feira
 - [x] 📖 Aula 8.4 (40) - JavaScript ES6 - Higher Order Functions - reduce. 07.10 - Quinta-Feira
 - [x] 📖 Aula 8.5 (41) - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais. 08.10 - Sexta-Feira
-- [x] 📖 Projeto 7  (2 dias) (42 e 43) - Projeto JavaScript Testes Unitários - 13 e 14.10 - Quarta e Quinta feira
+- [x] 📖 Projeto 7 (2 dias) (42 e 43) - Projeto JavaScript Testes Unitários - 13 e 14.10 - Quarta e Quinta feira
 
 </details>
 
@@ -114,15 +117,18 @@ Esse curso foi iniciado em 9 de agosto de 2021, sendo programado para acabar um 
 - [x] 📖 Aula 9.1 (44) - JavaScript Assíncrono e Callbacks 15.10 - Sexta-Feira
 - [x] 📖 Aula 9.2(45) - JavaScript Assíncrono 16.10 - Segunda-Feira
 - [x] 📖 Aula 9.3 (46)- JEST - testes assíncronos 17.10 - Terça-Feira
-- [x] 📖 Aulas 9.4, 9.6 e 9.7 (47,49 e 50)  Projeto 8 Carrinho de Compras -2 dias  -  20.10 - Quarta-Feira e 22.10 - Sexta-feira
-- [x] 📖 Aula 9.5 (48) - Casa de Câmbio -  21.10 - Quinta-Feira
+- [x] 📖 Aulas 9.4, 9.6 e 9.7 (47,49 e 50) Projeto 8 Carrinho de Compras -2 dias - 20.10 - Quarta-Feira e 22.10 - Sexta-feira
+- [x] 📖 Aula 9.5 (48) - Casa de Câmbio - 21.10 - Quinta-Feira
+- [x] 📖 Aula 9.6 (51) - Aula auxiliar para o projeto - 26.10 - Terça-Feira
 
 </details>
 
 </details>
 
 ---
+
 ### FRONT END
+
 <details>
 <summary> BLOCOS</summary>
 
