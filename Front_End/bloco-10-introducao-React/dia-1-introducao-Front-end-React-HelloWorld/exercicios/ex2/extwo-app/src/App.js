@@ -12,8 +12,8 @@ class App extends React.Component {
         <div className='main-content'>
           <Header />
           <Content />
-          <Footer />
         </div>
+        <Footer />
       </div>
     );
   }
