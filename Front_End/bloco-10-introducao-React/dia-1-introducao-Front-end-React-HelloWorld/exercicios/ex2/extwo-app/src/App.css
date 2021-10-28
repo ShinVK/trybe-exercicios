@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  background-color: rgb(193, 176, 255);
+  height: 100vh;
+}
+
+.main-content {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+.header__title {
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid black;
+  width: 250px;
+  margin: 15px 0 15px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: cornsilk;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(101, 91, 138);
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_text {
+  color: aliceblue;
+}
