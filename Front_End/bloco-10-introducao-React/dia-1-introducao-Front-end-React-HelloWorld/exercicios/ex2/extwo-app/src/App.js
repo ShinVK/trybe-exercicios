@@ -8,10 +8,12 @@ import './App.css';
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <Header />
-        <Content />
-        <Footer />
+      <div className='section'>
+        <div className='main-content'>
+          <Header />
+          <Content />
+          <Footer />
+        </div>
       </div>
     );
   }
