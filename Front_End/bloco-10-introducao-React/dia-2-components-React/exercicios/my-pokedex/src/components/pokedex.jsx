@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import Pokemon from './pokemon';
+// import Pokemon from './pokemon';
 import './pokedex.css';
 
 class Pokedex extends Component {
@@ -20,8 +20,25 @@ class Pokedex extends Component {
           <div className='smallScreen'></div>
           <div className='smallCircle red posBottom'></div>
         </div>
-        <h1> Sou irmão desse </h1>
-        <Pokemon />;
+        <div className='buttons__container'>
+          <div className='btn__circle'></div>
+          <div>
+            <div className='lightsAndScreen__container'>
+              <div className='lights_container'>
+                <div className='light one'></div>
+                <div className='light two'></div>
+              </div>
+              <div className='smallestScreen'></div>
+            </div>
+          </div>
+
+          <div className='btn__directions_container'>
+            <div className='btn__direction up'></div>
+            <div className='btn__direction down'></div>
+            <div className='btn__direction right'></div>
+            <div className='btn__direction left'></div>
+          </div>
+        </div>
       </div>
     );
   }
