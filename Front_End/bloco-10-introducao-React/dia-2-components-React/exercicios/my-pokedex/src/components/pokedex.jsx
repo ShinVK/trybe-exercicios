@@ -12,6 +12,14 @@ class Pokedex extends Component {
           <div className='smallCircle yellow'></div>
           <div className='smallCircle green'></div>
         </div>
+        <div className='bigScreen'>
+          <div className='smallestCirclesContainer'>
+            <div className='smallestCircle red'></div>
+            <div className='smallestCircle red'></div>
+          </div>
+          <div className='smallScreen'></div>
+          <div className='smallCircle red posBottom'></div>
+        </div>
         <h1> Sou irmão desse </h1>
         <Pokemon />;
       </div>
