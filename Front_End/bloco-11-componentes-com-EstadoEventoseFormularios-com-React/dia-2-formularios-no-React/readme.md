@@ -10,6 +10,8 @@
 
 ### TEORIA
 
+  Dica: Sempre consultar a documentação da ferramenta.
+  
 
 ### 📓 Exercícios
 
