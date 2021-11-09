@@ -5,7 +5,9 @@ function App() {
   return (
     <div className='App'>
       <h1>Formulário</h1>
-      <Form />
+      <Form name='name' type='text' maxl={4} />
+      <Form name='email' type='email' maxl={50} />
+      <Form name='name' type='text' maxl={4} />
     </div>
   );
 }
