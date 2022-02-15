@@ -7,7 +7,7 @@
 
 - [x] 📖 Aula 11.1 (55) - Componentes com estado e eventos -  03.11 - Sexta-Feira
 - [x] 📖 Aula 11.2 (56) - Componentes React - 04.11 - Quinta-Feira
-- [x] 📖 Projeto 10 (57) - Projeto Tryunfo - 2 dias - 05.11/08.11 - Sexta-Feira e segunda Feira
+- [x] 📖 Projeto 10 (57 e 58) - Projeto Tryunfo - 2 dias - 05.11/08.11 - Sexta-Feira e segunda Feira
 
 
 <details>
