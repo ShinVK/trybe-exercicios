@@ -8,9 +8,9 @@
 
 ### 🗓️ 1 Projeto - 29.10 de 2021
 
-- [ ] 📖 Aula 10.1 (52) - Introdução - Front-End, React - 26.10 - Quarta-Feira
-- [ ] 📖 Aula 10.2 (53) - Componentes React - 27.10 - Quinta-Feira
-- [ ] 📖 Projeto 9 (54) - Projeto Sistema Solar - 28.10 - Sexta-Feira
+- [x] 📖 Aula 10.1 (52) - Introdução - Front-End, React - 26.10 - Quarta-Feira
+- [x] 📖 Aula 10.2 (53) - Componentes React - 27.10 - Quinta-Feira
+- [x] 📖 Projeto 9 (54) - Projeto Sistema Solar - 28.10 - Sexta-Feira
 
 <details>
 <summary> 📋 Fundamentos do Desenvolvimento Web </summary>
@@ -29,4 +29,4 @@
 
 ### 📋 FRONT-END
 
-- BLOCO 10 - Introdução à React
+- BLOCO 10 - Introdução à React ✅
