@@ -2,8 +2,8 @@
 
 # FRONT-END
 ## 📚 Bloco 11 - Componentes com Estado, Eventos e Formulários com React
-### 🗓️ 2 aulas - 29.10 e 03.11
-### 🗓️ 1 Projeto - 04.11 de 2021
+### 🗓️ 2 aulas - 03.11 e 04.11
+### 🗓️ 1 Projeto - 05.11 a 08.11 de 2021
 
 - [x] 📖 Aula 11.1 (55) - Componentes com estado e eventos -  03.11 - Sexta-Feira
 - [x] 📖 Aula 11.2 (56) - Componentes React - 04.11 - Quinta-Feira
