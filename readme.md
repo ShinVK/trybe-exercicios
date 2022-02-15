@@ -131,5 +131,88 @@ Esse curso foi iniciado em 9 de agosto de 2021, sendo programado para acabar um 
 
 <details>
 <summary> BLOCOS</summary>
+ 
+<details>
+<summary>📚 Bloco 10 - Introdução à React ✅</summary>
+
+- [x] 📖 Aula 10.1 (52) - Introdução - Front-End, React - 26.10 - Quarta-Feira
+- [x] 📖 Aula 10.2 (53) - Componentes React - 27.10 - Quinta-Feira
+- [x] 📖 Projeto 9 (54) - Projeto Sistema Solar - 28.10 - Sexta-Feira
+
+</details>
+
+<details>
+<summary>📚 Bloco 11 - Componentes com Estado, Eventos e Formulários com React ✅</summary>
+
+- [x] 📖 Aula 11.1 (55) - Componentes com estado e eventos -  03.11 - Sexta-Feira
+- [x] 📖 Aula 11.2 (56) - Componentes React - 04.11 - Quinta-Feira
+- [x] 📖 Projeto 10 (57 e 58) - Projeto Tryunfo - 2 dias - 05.11/08.11 - Sexta-Feira e segunda Feira
+
+</details>
+ 
+<details>
+<summary>📚 Bloco 12 - Ciclo de Vida de Componentes e React Router ✅</summary>
+
+- [x] 📖 Aula 12.1 (59) - Ciclo de vida de Componentes - 09.11 - Terça-Feira
+- [x] 📖 Aula 12.2 (60) - React Router - 10.11 - Quarta-Feira
+- [x] 📖 Aula Lógica (62) - Lógica de Programação - 12.11 - Sexta-Feira
+- [x] 📖 Projeto 11 (61 e 63) - Projeto TrybeTunes - 2 dias - 11.11 - Quinta/terça -Feira
+
+</details>
+
+<details>
+<summary>📚 Bloco 13 - Metodologias Ágeis ✅</summary>
+
+- [x] 📖 Aula 13.1 (64) - Metodologias Ágeis - 17.11 - Quarta-Feira
+- [x] 📖 Projeto 12 (65, 66, 67 e 68) - Projeto FrontEnd Online Store - 18.11 a 23.11 - Quinta a Terça-Feira
+
+</details>
+
+<details>
+<summary>📚 Bloco 14 - Testes automatizados com React Testing Library ✅</summary>
+
+- [x] 📖 Aula 14.1 (70) - RTL - Primeiros Passos - 24.11 - Quarta-Feira
+- [x] 📖 Aula 14.2 (71) - RTL - Mocks e Inputs - 25.11 - Quinta-Feira
+- [x] 📖 Aula 14.3 (72) - RTL - Testando React Router - 26.11 - Sexta-Feira
+- [x] 📖 Projeto 13 (73 e 74) - Projeto Testes em React - 29 e 30.11 - Segunda e terça -Feira
+
+</details>
+ 
+<details>
+<summary>📚 Bloco 15 - Gerenciamento de estado com Redux ✅</summary>
+
+- [x] 📖 Aula Revisões (75 - 82) - Semana de revisões - 01 a 10.12
+- [x] 📖 Aula 15.1 (83) - Introdução ao Redux - O estado global da Aplicação - 03.01 - Segunda-Feira
+- [x] 📖 Aula 15.2 (84) - Usando o Redux no React - 04.01 - Terça-Feira
+- [x] 📖 Aula 15.3 (85) - Usando o Redux no React na Prática - 05.01 - Quarta-Feira
+- [x] 📖 Aula 15.4 (86) - Usando o Redux no React - Actions Assíncronas - 06.01 - Quinta-Feira
+- [x] 📖 Aula 15.5 (87) - Testes em React-Redux - 07.01 - Sexta-Feira
+- [x] 📖 Projeto 14 (88, 89 e 90) - Projeto Trybe Wallet - 3 dias - 10, 11 e 12.01 - Segunda, Terça e Quarta-Feira
+
+</details>
+ 
+<details>
+<summary>📚 Bloco 16 - Projeto Jogo de Trivia ✅</summary>
+
+- [x] 📖 Projeto 15 em grupo (91 a 95) - Projeto Jogo de trivia -5 dias - 13 a 19.01 - Quinta a quarta-Feira
+
+</details>
+ 
+<details>
+<summary>📚 Bloco 17 - Gerenciamento de estado com Redux ✅</summary>
+
+- [x] 📖 Aula 17.1 (96) - Context API do React - 20.01 - Quinta-Feira
+- [x] 📖 Aula 17.2 (97) - React Hooks - useState e useContext - 21.01 - Sexta-Feira
+- [x] 📖 Aula 17.3 (98) - React Hooks - useEffect e Hooks customizados - 24.01 - Segunda-Feira
+- [x] 📖 Projeto 16 (99 e 100) - Projeto StarWars DataTable com Context API - 2 dias- 25 e 26.01 - Terça e Quarta-Feira
+
+</details>
+ 
+<details>
+<summary>📚 Bloco 18 - Projeto APP de Receitas ✅</summary>
+
+- [x] 📖 Projeto 17 (101 a 110 ) - 10 dias - Projeto App de Receitas - 27.01 a 09.02
+
+</details>
 
 </details>
