@@ -2,13 +2,13 @@
 
 # FRONT-END
 ## 📚 Bloco 12 - Ciclo de Vida de Componentes e React Router
-### 🗓️ 2 aulas - 05.11 e 08.11
-### 🗓️ 1 Projeto - 09.11 de 2021
+### 🗓️ 2 aulas - 09.11 e 10.11
+### 🗓️ 1 Projeto - 11 a 16.11 de 2021
 
 - [x] 📖 Aula 12.1 (59) - Ciclo de vida de Componentes - 09.11 - Terça-Feira
 - [x] 📖 Aula 12.2 (60) - React Router - 10.11 - Quarta-Feira
 - [x] 📖 Aula Lógica (62) - Lógica de Programação - 12.11 - Sexta-Feira
-- [x] 📖 Projeto 11 (61 e 63) - Projeto TrybeTunes - 2 dias - 11.11 - Quinta/terça -Feira
+- [x] 📖 Projeto 11 (61 e 63) - Projeto TrybeTunes - 2 dias - 11 a 16.11 - Quinta/terça -Feira
 
 
 <details>
