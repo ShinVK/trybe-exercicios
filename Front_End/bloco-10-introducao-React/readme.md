@@ -4,9 +4,9 @@
 
 ## 📚 Bloco 10 - Introdução à React
 
-### 🗓️ 2 aulas - 27.10 e 28.10
+### 🗓️ 2 aulas - 26.10 e 27.10
 
-### 🗓️ 1 Projeto - 29.10 de 2021
+### 🗓️ 1 Projeto - 28.10 de 2021
 
 - [x] 📖 Aula 10.1 (52) - Introdução - Front-End, React - 26.10 - Quarta-Feira
 - [x] 📖 Aula 10.2 (53) - Componentes React - 27.10 - Quinta-Feira
