@@ -2,9 +2,9 @@
 
 # FRONT-END
 ## 📚 Bloco 16 - Projeto Jogo de Trivia
-### 🗓️ 1 Projeto - 29.11 de 2021
+### 🗓️ 1 Projeto em grupo - 5 dias - 13 a 19.01 de 2021
 
-- [ ] 📖 Projeto 15 (72) - Projeto Jogo de trivia - 29.11 - Segunda-Feira
+- [x] 📖 Projeto 15 em grupo (91 a 95) - Projeto Jogo de trivia -5 dias - 13 a 19.01 - Quinta a quarta-Feira
 
 
 <details>
@@ -24,10 +24,10 @@
 
 ### 📋 FRONT-END
 
-- BLOCO 10 - Introdução à React
-- BLOCO 11 - Componentes com Estado, Eventos e Formulários com React
-- BLOCO 12 - Ciclo de Vida de Componentes e React Router
-- BLOCO 13 - Metodologias Ágeis
-- BLOCO 14 - Testes automatizados com React Testing Library
-- BLOCO 15 - Gerenciamento de estado com Redux
-- BLOCO 16 - Projeto Jogo de Trivia
+- BLOCO 10 - Introdução à React ✅
+- BLOCO 11 - Componentes com Estado, Eventos e Formulários com React ✅
+- BLOCO 12 - Ciclo de Vida de Componentes e React Router ✅
+- BLOCO 13 - Metodologias Ágeis ✅
+- BLOCO 14 - Testes automatizados com React Testing Library ✅
+- BLOCO 15 - Gerenciamento de estado com Redux ✅
+- BLOCO 16 - Projeto Jogo de Trivia ✅
