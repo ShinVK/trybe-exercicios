@@ -5,8 +5,8 @@
 ### 🗓️ 1 aula - 10.11
 ### 🗓️ 1 Projeto - 11.11 de 2021
 
-- [ ] 📖 Aula 13.1 (60) - Metodologias Ágeis - 10.11 - Quarta-Feira
-- [ ] 📖 Projeto 12 (61) - Projeto FrontEnd Online Store - 11.11 - Quinta-Feira
+- [x] 📖 Aula 13.1 (64) - Metodologias Ágeis - 17.11 - Quarta-Feira
+- [x] 📖 Projeto 12 (65, 66, 67 e 68) - Projeto FrontEnd Online Store - 18.11 a 23.11 - Quinta a Terça-Feira
 
 
 <details>
@@ -26,7 +26,7 @@
 
 ### 📋 FRONT-END
 
-- BLOCO 10 - Introdução à React
-- BLOCO 11 - Componentes com Estado, Eventos e Formulários com React
-- BLOCO 12 - Ciclo de Vida de Componentes e React Router
-- BLOCO 13 - Metodologias Ágeis
+- BLOCO 10 - Introdução à React ✅
+- BLOCO 11 - Componentes com Estado, Eventos e Formulários com React ✅
+- BLOCO 12 - Ciclo de Vida de Componentes e React Route ✅
+- BLOCO 13 - Metodologias Ágeis ✅
