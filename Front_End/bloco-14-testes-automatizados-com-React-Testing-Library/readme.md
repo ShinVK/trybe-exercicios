@@ -5,10 +5,10 @@
 ### 🗓️ 3 aulaS - 12.11, 16.11 e 17.11
 ### 🗓️ 1 Projeto - 18.11 de 2021
 
-- [ ] 📖 Aula 14.1 (62) - RTL - Primeiros Passos - 12.11 - Sexta-Feira
-- [ ] 📖 Aula 14.2 (63) - RTL - Mocks e Inputs - 16.11 - Terça-Feira
-- [ ] 📖 Aula 14.3 (64) - RTL - Testando React Router - 17.11 - Quarta-Feira
-- [ ] 📖 Projeto 13 (65) - Projeto Testes em React - 18.11 - Quinta-Feira
+- [x] 📖 Aula 14.1 (70) - RTL - Primeiros Passos - 24.11 - Quarta-Feira
+- [x] 📖 Aula 14.2 (71) - RTL - Mocks e Inputs - 25.11 - Quinta-Feira
+- [x] 📖 Aula 14.3 (72) - RTL - Testando React Router - 26.11 - Sexta-Feira
+- [x] 📖 Projeto 13 (73 e 74) - Projeto Testes em React - 29 e 30.11 - Segunda e terça -Feira
 
 
 <details>
@@ -28,8 +28,8 @@
 
 ### 📋 FRONT-END
 
-- BLOCO 10 - Introdução à React
-- BLOCO 11 - Componentes com Estado, Eventos e Formulários com React
-- BLOCO 12 - Ciclo de Vida de Componentes e React Router
-- BLOCO 13 - Metodologias Ágeis
-- BLOCO 14 - Testes automatizados com React Testing Library
+- BLOCO 10 - Introdução à React ✅
+- BLOCO 11 - Componentes com Estado, Eventos e Formulários com React ✅
+- BLOCO 12 - Ciclo de Vida de Componentes e React Router ✅
+- BLOCO 13 - Metodologias Ágeis ✅
+- BLOCO 14 - Testes automatizados com React Testing Library ✅
