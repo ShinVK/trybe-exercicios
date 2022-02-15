@@ -2,13 +2,13 @@
 
 # FRONT-END
 ## 📚 Bloco 17 - Gerenciamento de estado com Redux
-### 🗓️ 3 aulas - 30.11, 01.12 E 02.12
-### 🗓️ 1 Projeto - 03.12 de 2021
+### 🗓️ 3 aulas - 20.01, 21.01 E 24.01
+### 🗓️ 1 Projeto - 25 e 26.01 de 2022
 
-- [ ] 📖 Aula 17.1 (73) - Context API do React - 30.11 - Terça-Feira
-- [ ] 📖 Aula 17.2 (74) - React Hooks - useState e useContext - 01.12 - Quarta-Feira
-- [ ] 📖 Aula 17.3 (75) - React Hooks - useEffect e Hooks customizados - 02.12 - Quinta-Feira
-- [ ] 📖 Projeto 16 (76) - Projeto StarWars DataTable com Context API - 03.12 - Sexta-Feira
+- [x] 📖 Aula 17.1 (96) - Context API do React - 20.01 - Quinta-Feira
+- [x] 📖 Aula 17.2 (97) - React Hooks - useState e useContext - 21.01 - Sexta-Feira
+- [x] 📖 Aula 17.3 (98) - React Hooks - useEffect e Hooks customizados - 24.01 - Segunda-Feira
+- [x] 📖 Projeto 16 (99 e 100) - Projeto StarWars DataTable com Context API - 2 dias- 25 e 26.01 - Terça e Quarta-Feira
 
 
 <details>
@@ -28,11 +28,11 @@
 
 ### 📋 FRONT-END
 
-- BLOCO 10 - Introdução à React
-- BLOCO 11 - Componentes com Estado, Eventos e Formulários com React
-- BLOCO 12 - Ciclo de Vida de Componentes e React Router
-- BLOCO 13 - Metodologias Ágeis
-- BLOCO 14 - Testes automatizados com React Testing Library
-- BLOCO 15 - Gerenciamento de estado com Redux
-- BLOCO 16 - Projeto Jogo de Trivia
-- BLOCO 17 - Gerenciamento de estado com Redux 
+- BLOCO 10 - Introdução à React ✅
+- BLOCO 11 - Componentes com Estado, Eventos e Formulários com React ✅
+- BLOCO 12 - Ciclo de Vida de Componentes e React Router ✅
+- BLOCO 13 - Metodologias Ágeis ✅
+- BLOCO 14 - Testes automatizados com React Testing Library ✅
+- BLOCO 15 - Gerenciamento de estado com Redux ✅
+- BLOCO 16 - Projeto Jogo de Trivia ✅
+- BLOCO 17 - Gerenciamento de estado com Redux ✅ 
