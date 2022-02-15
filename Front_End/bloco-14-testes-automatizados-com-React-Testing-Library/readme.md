@@ -2,8 +2,8 @@
 
 # FRONT-END
 ## 📚 Bloco 14 - Testes automatizados com React Testing Library
-### 🗓️ 3 aulaS - 12.11, 16.11 e 17.11
-### 🗓️ 1 Projeto - 18.11 de 2021
+### 🗓️ 3 aulaS - 24.11, 25.11 e 26.11
+### 🗓️ 1 Projeto - 2 dias - 29.11 e 30.11 de 2021
 
 - [x] 📖 Aula 14.1 (70) - RTL - Primeiros Passos - 24.11 - Quarta-Feira
 - [x] 📖 Aula 14.2 (71) - RTL - Mocks e Inputs - 25.11 - Quinta-Feira
