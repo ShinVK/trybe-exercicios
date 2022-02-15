@@ -11,7 +11,7 @@
 - [x] 📖 Aula 15.3 (85) - Usando o Redux no React na Prática - 05.01 - Quarta-Feira
 - [x] 📖 Aula 15.4 (86) - Usando o Redux no React - Actions Assíncronas - 06.01 - Quinta-Feira
 - [x] 📖 Aula 15.5 (87) - Testes em React-Redux - 07.01 - Sexta-Feira
-- [x] 📖 Projeto 14 (88) - Projeto Trybe Wallet - 3 dias - 10, 11 e 12.01 - Segunda, Terça e Quarta-Feira
+- [x] 📖 Projeto 14 (88, 89 e 90) - Projeto Trybe Wallet - 3 dias - 10, 11 e 12.01 - Segunda, Terça e Quarta-Feira
 
 
 <details>
