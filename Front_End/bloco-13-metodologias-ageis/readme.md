@@ -2,8 +2,8 @@
 
 # FRONT-END
 ## 📚 Bloco 13 - Metodologias Ágeis
-### 🗓️ 1 aula - 10.11
-### 🗓️ 1 Projeto - 11.11 de 2021
+### 🗓️ 1 aula - 17.11
+### 🗓️ 1 Projeto - 18.11 a 23.11 de 2021
 
 - [x] 📖 Aula 13.1 (64) - Metodologias Ágeis - 17.11 - Quarta-Feira
 - [x] 📖 Projeto 12 (65, 66, 67 e 68) - Projeto FrontEnd Online Store - 18.11 a 23.11 - Quinta a Terça-Feira
