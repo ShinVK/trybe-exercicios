@@ -5,9 +5,9 @@
 ### 🗓️ 2 aulas - 29.10 e 03.11
 ### 🗓️ 1 Projeto - 04.11 de 2021
 
-- [x] 📖 Aula 11.1 (55) - Componentes com estado e eventos -  03.11 - Quarta-Feira
+- [x] 📖 Aula 11.1 (55) - Componentes com estado e eventos -  03.11 - Sexta-Feira
 - [x] 📖 Aula 11.2 (56) - Componentes React - 04.11 - Quinta-Feira
-- [ ] 📖 Projeto 10 (57) - Projeto Tryunfo - 05.11 - Sexta-Feira
+- [x] 📖 Projeto 10 (57) - Projeto Tryunfo - 2 dias - 05.11/08.11 - Sexta-Feira e segunda Feira
 
 
 <details>
@@ -28,4 +28,4 @@
 ### 📋 FRONT-END
 
 - BLOCO 10 - Introdução à React ✅
-- BLOCO 11 - Componentes com Estado, Eventos e Formulários com React
+- BLOCO 11 - Componentes com Estado, Eventos e Formulários com React ✅
