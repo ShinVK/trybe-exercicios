@@ -9,6 +9,5 @@ function exec1(par1, par2, par3) {
   })
 }
 
-exec1(15, 2, 3)
-  .then(result => console.log(result))
-  .catch(err => console.log(err));
+module.exports = exec1;
+
