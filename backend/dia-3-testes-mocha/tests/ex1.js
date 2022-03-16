@@ -19,3 +19,16 @@ describe('Verifica o número', () => {
     expect(resposta).equals('neutro');
   });
 });
+
+describe('Verifica se é número', () => {
+  it('é numero, return true', () => {
+    const resposta = new numb(5).isNumber();
+
+    expect(resposta).equals(true);
+  });
+  it('string - return false', () => {
+    const resposta = new numb('5').isNumber();
+
+    expect(resposta).equals(false);
+  });
+});
