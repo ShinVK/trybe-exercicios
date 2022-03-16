@@ -11,7 +11,7 @@ class VerificaNumero{
 
   isNumber() {
     if(typeof this.num !== 'number') {
-      return false;
+      return 'o parâmetro deve ser um número';
     } else {
       return true;
     }

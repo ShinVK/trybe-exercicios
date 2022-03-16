@@ -26,9 +26,15 @@ describe('Verifica se é número', () => {
 
     expect(resposta).equals(true);
   });
-  it('string - return false', () => {
+  it('string - é uma string?', () => {
     const resposta = new numb('5').isNumber();
 
-    expect(resposta).equals(false);
+    expect(resposta).to.be.a('string');
+  });
+
+  it('Resposta caso seja string: o parâmetro deve ser um número', () => {
+    const resposta = new numb('5').isNumber();
+
+    expect(resposta).equals('o parâmetro deve ser um número');
   });
 });
